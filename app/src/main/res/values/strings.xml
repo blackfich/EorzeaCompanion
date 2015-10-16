@@ -1,0 +1,369 @@
+<resources>
+    <string name="app_name">Eorzea Companion</string>
+
+    <string name="action_gathering">Gathering</string>
+    <string name="action_vistas">Vistas</string>
+    <string name="action_about">About</string>
+
+    <string name="btnClose">Close</string>
+
+    <string name="txtEmote">Emote : </string>
+
+    <string name="eorzea_time_short">ET</string>
+
+    <string name="about_text">
+        &lt;center&gt;
+            &lt;big&gt;&lt;b&gt;Eorzea Companion&lt;/b&gt;&lt;/big&gt;
+            &lt;br/&gt;\n
+            &lt;br/&gt;\n
+            Copyright &#169; Blackfich 2015
+        &lt;/center&gt;
+        &lt;br/&gt;\n
+        &lt;br/&gt;\n
+        This application is free of use.
+        &lt;br/&gt;\n
+        &lt;br/&gt;\n
+        All graphics such as item icons, screenshots, etc belong to their rightful owners.
+        &lt;br/&gt;\n
+        &lt;br/&gt;\n
+        FINAL FANTASY XIV &#169; 2010-2015 SQUARE ENIX CO., LTD. All Rights Reserved.
+        &lt;br/&gt;\n
+        &lt;br/&gt;\n
+        FINAL FANTASY is a registered trademark of Square Enix Holdings Co., Ltd.
+    </string>
+
+
+    <!-- Gathering -->
+    <string name="item_slot_level">Lv. </string>
+    <string name="item_slot_nothing">Nothing</string>
+    <string name="item_hidden">hidden</string>
+    <string name="item_variable_slot">variable slot</string>
+
+    <!-- regions -->
+    <string name="old_gridania">Old Gridania</string>
+    <string name="new_gridania">New Gridania</string>
+    <string name="east_shroud">East Shroud</string>
+    <string name="south_shroud">Shouth Shroud</string>
+    <string name="north_shroud">North Shroud</string>
+    <string name="central_shroud">Central Shroud</string>
+
+    <string name="limsa_lominsa_upper_decks">Limsa Lominsa - Upper Decks</string>
+    <string name="limsa_lominsa_lower_decks">Limsa Lominsa - Lower Decks</string>
+    <string name="middle_la_noscea">Middle La Noscea</string>
+    <string name="eastern_la_noscea">Eastern La Noscea</string>
+    <string name="lower_la_noscea">Lower La Noscea</string>
+    <string name="outer_la_noscea">Outter La Noscea</string>
+    <string name="upper_la_noscea">Upper La Noscea</string>
+    <string name="western_la_noscea">Western La Noscea</string>
+
+    <string name="uldah_steps_of_thal">Ul\'dah - Steps of Thal</string>
+    <string name="uldah_steps_of_nald">Ul\'dah - Steps of Nald</string>
+    <string name="northern_thanalan">Northern Thanalan</string>
+    <string name="western_thanalan">Western Thanalan</string>
+    <string name="eastern_thanalan">Eastern Thanalan</string>
+    <string name="southern_thanalan">Southern Thanalan</string>
+    <string name="central_thanalan">Central Thanalan</string>
+
+    <string name="mor_dhona">Mor Dhona</string>
+    <string name="central_coerthas">Central Coerthas Highlands</string>
+
+    <!-- HW regions -->
+    <string name="western_coerthas">Western Coerthas Highlands</string>
+    <string name="azys_lla">Azys Lla</string>
+    <string name="dravanian_forelands">Dravanian Forelands</string>
+    <string name="dravanian_hinterlands">Dravanian Hinterlands</string>
+    <string name="sea_of_clouds">Sea of Clouds</string>
+    <string name="churning_mists">Churning Mists</string>
+
+    <!-- jobs/skills -->
+    <string name="botanist">Botanist</string>
+    <string name="miner">Miner</string>
+    <string name="fisher">Fisher</string>
+
+    <!-- emotes -->
+    <string name="emote_comfort">comfort</string>
+    <string name="emote_kneel">kneel</string>
+    <string name="emote_lookout">lookout</string>
+    <string name="emote_pray">pray</string>
+    <string name="emote_psych">psych</string>
+    <string name="emote_salute">salute</string>
+    <string name="emote_sit">sit</string>
+
+    <!-- weathers -->
+    <string name="weather_clear">clear</string>
+    <string name="weather_cloudy">cloudy</string>
+    <string name="weather_duststorm">duststorm</string>
+    <string name="weather_fair">fair</string>
+    <string name="weather_fog">fog</string>
+    <string name="weather_gales">gales</string>
+    <string name="weather_heatwave">heatwave</string>
+    <string name="weather_rain">rain</string>
+    <string name="weather_thunderstorm">thunderstorm</string>
+
+    <!-- items -->
+    <string name="abalathian_mistletoe">Abalathian Mistletoe</string>
+    <string name="abalathian_rock_salt">Abalathian Rock Salt</string>
+    <string name="adamantite_ore">Adamantite Ore</string>
+    <string name="antumbral_rock">Antumbral Rock</string>
+    <string name="apricot">Apricot</string>
+    <string name="astral_moraine">Astral Moraine</string>
+    <string name="astral_rock">Astral Rock</string>
+    <string name="aurum_regis_ore">Aurum Regis Ore</string>
+    <string name="bamboo_stick">Bamboo Stick</string>
+    <string name="black_soil">Black Soil</string>
+    <string name="black_truffle">Black Truffle</string>
+    <string name="blood_orange">Blood Orange</string>
+    <string name="blue_quartz">Blue Quartz</string>
+    <string name="bright_fire_rock">Bright Fire Rrock</string>
+    <string name="bright_lightning_rock">Bright Lightning Rock</string>
+    <string name="chalcocite">Chalcocite</string>
+    <string name="chives">Chives</string>
+    <string name="chysahl_greens">Chysahl Greens</string>
+    <string name="cloud_banana">Cloud Banana</string>
+    <string name="clary_sage">Clary Sage</string>
+    <string name="coblyn_larva">Coblyn Larva</string>
+    <string name="coerthan_tea_leaves">Coerthan Tea Leaves</string>
+    <string name="cuprite">Cuprite</string>
+    <string name="cypress_log">Cypress Log</string>
+    <string name="darksteel_ore">Darksteel Ore</string>
+    <string name="dravanian_mistletoe">Dravanian Mistletoe</string>
+    <string name="dravanian_paprika">Dravanian Paprika</string>
+    <string name="dzemael_tomato">Dzemael Tomato</string>
+    <string name="earth_cluster">Earth Cluster</string>
+    <string name="ebony_log">Ebony Log</string>
+    <string name="ferberite">Ferberite</string>
+    <string name="fire_cluster">Fire Cluster</string>
+    <string name="fire_moraine">Fire Moraine</string>
+    <string name="fragrant_log">Fragrant Log</string>
+    <string name="furymint">Fury Mint</string>
+    <string name="gold_ore">Gold Ore</string>
+    <string name="gold_sand">Gold Sand</string>
+    <string name="grade_3_la_noscean_topsoil">Grade 3 La Noscean Topsoil</string>
+    <string name="grade_3_shroud_topsoil">Grade 3 Shroud Topsoil</string>
+    <string name="grade_3_thanalan_topsoil">Grade 3 Thanalan Topsoil</string>
+    <string name="grade_4_carbonized_matter">Grade 4 Carbonized Matter</string>
+    <string name="granular_clay">Granular Clay</string>
+    <string name="green_quartz">Green Quartz</string>
+    <string name="gregarious_worm">Gregarious Worm</string>
+    <string name="heavens_lemon">Heavens Lemon</string>
+    <string name="highland_oregano">Highland Oregano</string>
+    <string name="honey_lemon">Honey Lemon</string>
+    <string name="honeydew_almonds">Honeydew Almonds</string>
+    <string name="ice_cluster">Ice Cluster</string>
+    <string name="kidragora">Kidragora</string>
+    <string name="la_noscean_leek">La Noscean Leek</string>
+    <string name="light_kidney_ore">Light Kidney Ore</string>
+    <string name="lightning_cluster">Lightning Cluster</string>
+    <string name="lightning_moraine">Lightning Moraine</string>
+    <string name="limonite">Limonite</string>
+    <string name="mazlaya_greens">Mazlaya Greens</string>
+    <string name="morel">Morel</string>
+    <string name="native_gold">Native Gold</string>
+    <string name="old_world_fig">Old World Fig</string>
+    <string name="pearl_sprouts">Pearl Sprouts</string>
+    <string name="peat_moss">Peat Moss</string>
+    <string name="platinum_ore">Platinum Ore</string>
+    <string name="porcini">Porcini</string>
+    <string name="prickly_pineapple">Prickly Pineapple</string>
+    <string name="pumice">Pumice</string>
+    <string name="pyrite">Pyrite</string>
+    <string name="radiant_fire_moraine">Radiant Fire Moraine</string>
+    <string name="radiant_lightning_moraine">Radiant Lightning Moraine</string>
+    <string name="raw_diamond">Raw Diamond</string>
+    <string name="raw_emerald">Raw Emerald</string>
+    <string name="raw_iolite">Raw Iolite</string>
+    <string name="raw_ruby">Raw Ruby</string>
+    <string name="raw_sapphire">Raw Sapphire</string>
+    <string name="raw_topaz">Raw Topaz</string>
+    <string name="red_alumen">Red Alumen</string>
+    <string name="red_quartz">Red Quartz</string>
+    <string name="redolent_log">Redolent Log</string>
+    <string name="rosemary">Rosemary</string>
+    <string name="scarlet_sap">Scarlet Sap</string>
+    <string name="seventh_heaven">Seventh Heaven</string>
+    <string name="shroud_tea_leaves">Shroud Tea Leaves</string>
+    <string name="silkworm_cocoon">Silkworm Cocoon</string>
+    <string name="snurbleberry">Snurbleberry</string>
+    <string name="spruce_log">Spruce Log</string>
+    <string name="sun_mica">Sun Mica</string>
+    <string name="thavnairian_mistletoe">Thavnairian Mistletoe</string>
+    <string name="trillium">Trillium</string>
+    <string name="trillium_bulb">Trillium Bulb</string>
+    <string name="umbral_rock">Umbral Rock</string>
+    <string name="vampire_plant">Vampire Plant</string>
+    <string name="vanilla_beans">Vanilla Beans</string>
+    <string name="violet_quartz">Violet Quartz</string>
+    <string name="virgin_basilisk_egg">Virgin Basilisk Egg</string>
+    <string name="volcanic_rock_salt">Volcanic Rock Salt</string>
+    <string name="water_cluster">Water Cluster</string>
+    <string name="waterfowl_feather">Waterfowl Feather</string>
+    <string name="wattle_bark">Wattle Bark</string>
+    <string name="wind_cluster">Wind Cluster</string>
+    <string name="yellow_copper_ore">Yellow Copper Ore</string>
+    <string name="yellow_quartz">Yellow Quartz</string>
+    <string name="young_cieldalaes_spinach">Young Cieldalaes Spinach</string>
+
+
+    <!-- Vistas -->
+    <string name="vista_1_name">Barracuda Piers</string>
+    <string name="vista_1_hint">Located northwest out of The Bismark, there are two sets of bricks set into the wall there. The western set of bricks is the Vista location.</string>
+    <string name="vista_2_name">The Astalicia</string>
+    <string name="vista_2_hint">Climb to the top of The Astalicia (the ship there), and go east towards the bow of the ship. Climb the pole extending from the ship and go to the very tip.</string>
+    <string name="vista_3_name">Seasong Grotto</string>
+    <string name="vista_3_hint">In the Seasong Grotto, by the entrance.</string>
+    <string name="vista_4_name">The Skylift</string>
+    <string name="vista_4_hint">By the Skylift, overlooking the pier.</string>
+    <string name="vista_5_name">La Thagran Eastroad</string>
+    <string name="vista_5_hint">Looking at the gate into Lower La Noscea, go up the stairs on the right hand side and jump up onto the left hand side of the fence.</string>
+    <string name="vista_6_name">The Salt Strand</string>
+    <string name="vista_6_hint">Jump on the rock near the cliff west of the farmer\'s house.</string>
+    <string name="vista_7_name">Red Rooster Stead</string>
+    <string name="vista_7_hint">Jump on the top of the portal that leads to The Mist.</string>
+    <string name="vista_8_name">Brewer\'s Beacon</string>
+    <string name="vista_8_hint">Go behind the lighthouse on the left side. The vista is located where the wooden barrier and the lighthouse\'s wall meet.</string>
+    <string name="vista_9_name">The Leatherworkers\' Guild</string>
+    <string name="vista_9_hint">From inside the guild you go up the steps in the back, use sprint to jump on the table against the wall, jump again to get onto the higher shelf, and then while still sprinting, jump along the wall to land on the tanning skin halfway through the room. Face the room and use /lookout.</string>
+    <string name="vista_10_name">Apkallu Falls</string>
+    <string name="vista_10_hint">On Apkallu Falls, there are 3 lamp posts. You have to jump on top of the lamp posts to reach the Vista.</string>
+    <string name="vista_11_name">Bentbranch Meadows</string>
+    <string name="vista_11_hint">The Vista is right next to the Aetheryte. There are three stumps across the Moogle mail carrier. A woman is sitting on the first one. Hop up onto the third one to reach the Vista.</string>
+    <string name="vista_12_name">The Sanctum of the Twelve</string>
+    <string name="vista_12_hint">At the entrance to the chamber to the garden around the Sanctum of the Twelve.</string>
+    <string name="vista_13_name">Little Solace</string>
+    <string name="vista_13_hint">Just behind the Sylphs, on top of a tree branch by the quest giving NPCs. You can use a mount and baskets to reach there.</string>
+    <string name="vista_14_name">Royal Promenade</string>
+    <string name="vista_14_hint">There are three silver squares in front of the Royal Promenade (players can get there from the Alchemist Guild\'s Aetheryte Shard). The Vista is on the tip of the triangle. Face the stairs and guards then use /salute.</string>
+    <string name="vista_15_name">The Gold Court</string>
+    <string name="vista_15_hint">Jump down from hustings strip balcony onto the eastern most lamp.</string>
+    <string name="vista_16_name">The Jewel of the Desert</string>
+    <string name="vista_16_hint">Use your mount and jump from the boulder to the awning, the cloth roof, of the stairway down</string>
+    <string name="vista_17_name">The Ruins of Sil\'dih</string>
+    <string name="vista_17_hint">About half way down the cliff.</string>
+    <string name="vista_18_name">The Lonely Giant</string>
+    <string name="vista_18_hint">It is located under the base of the tree clump across from the Goobbue.</string>
+    <string name="vista_19_name">The Invisible City</string>
+    <string name="vista_19_hint">At the tip of the ruin/roof that overlooks the area.</string>
+    <string name="vista_20_name">Highbridge</string>
+    <string name="vista_20_hint">The Vista is on the small platform that sticks out from underneath the bridge. It is closest to the NPC located in the carved area on the side of the canyon.</string>
+    <string name="vista_21_name">Woad Whisper Canyon</string>
+    <string name="vista_21_hint">Edge of the path, before you pass under the rocky archways.</string>
+    <string name="vista_22_name">Summerford Farms</string>
+    <string name="vista_22_hint">Second flood of Inn. NW corner bookshelf to lamp. Hug wall (don\'t jump) around left side of room to opposite lamp.</string>
+    <string name="vista_23_name">The Grey Fleet</string>
+    <string name="vista_23_hint">On top of the house of sticks. Use the rocks behind the house to get onto the roof.</string>
+    <string name="vista_24_name">Hidden Falls</string>
+    <string name="vista_24_hint">Sit on chair at end of dock.</string>
+    <string name="vista_25_name">Gullperch Tower</string>
+    <string name="vista_25_hint">On top of Gullperch Tower. Located on the edge of the wall to the left of the two lookout NPCs.</string>
+    <string name="vista_26_name">The Navigator</string>
+    <string name="vista_26_hint">To the left hand side along the railing (if lookout out towards the sea).</string>
+    <string name="vista_27_name">The Ship Graveyard</string>
+    <string name="vista_27_hint">Bottom SE corner of Isle of Umbral. Stand on top of the pot in the sand.</string>
+    <string name="vista_28_name">Camp Skull Valley</string>
+    <string name="vista_28_hint">On top of the front-right spike (if facing) of the tents on the top of the fort. Jump on canvas roof then on spike.</string>
+    <string name="vista_29_name">Tidegate</string>
+    <string name="vista_29_hint">"On the top of the center pole on the round tent (just after three tents). Jump onto the smaller pole then BACKWARDS HOP onto the higher bit. From there sprint jump to the top/middle pole."</string>
+    <string name="vista_30_name">Camp Bronze Lake</string>
+    <string name="vista_30_hint">Go to the side of the house and jump up on the barrels between the two awnings (jump at the barrels head on, not from the side). Jump up onto the right awning and then onto the rocky ledge. Walk along the edge and jump onto the small part of the roof that juts out. The vista is on the highest point at the front of the house.</string>
+    <string name="vista_31_name">Thalaos</string>
+    <string name="vista_31_hint">Very tip of biggest bone/spire. Base of spire starts in (x13,y21). Vista log message did not appear until correct time.</string>
+    <string name="vista_32_name">Jijiroon\'s Trading Post</string>
+    <string name="vista_32_hint">Climb a wall and jump over to the next ruin.</string>
+    <string name="vista_33_name">The Floating City of Nym</string>
+    <string name="vista_33_hint">Cliff overlooking Nym.</string>
+    <string name="vista_34_name">Camp Overlook</string>
+    <string name="vista_34_hint">Crumbling arch. Jump over gap and hop up on highest part.</string>
+    <string name="vista_35_name">U\'Ghamaro Mines</string>
+    <string name="vista_35_hint">On top of the high furnace. Jump from the smaller one to the bigger one. There\'s a smokestack sticking out of the small one that kind of looks like the exhaust stack on a semi-truck/tractor trailer. If you try to run forward towards the big one, it blocks you. So jump on top of it, and then jump across to the big one.</string>
+    <string name="vista_36_name">The Hermit\'s Hovel</string>
+    <string name="vista_36_hint">Inside the house jump on the table -> bookshelf -> area with bed and table. stand on the stool and then /sit.</string>
+    <string name="vista_37_name">The Carline Canopy</string>
+    <string name="vista_37_hint">Blue Badger Gate on the left gate (facing the exit). Jump on railing from stairs. From there sprint jump to door. Then jump from door to door.</string>
+    <string name="vista_38_name">The Lancer\'s Guild</string>
+    <string name="vista_38_hint">Jump on bookshelf then onto weapons to make your way to the corner</string>
+    <string name="vista_39_name">The Bannock</string>
+    <string name="vista_39_hint">Jump onto the canvas above the commander\'s heads by first jumping up and along the tree. The vista is on top of the wooden arch.</string>
+    <string name="vista_40_name">Haukke Manor</string>
+    <string name="vista_40_hint">Climb onto the roots from left side just walk up. Hop onto top. Root are coming off of cliff into a small pond with a view of the mansion.</string>
+    <string name="vista_41_name">The Guardian Tree</string>
+    <string name="vista_41_hint">On tree bridge</string>
+    <string name="vista_42_name">Rainbow Bridge</string>
+    <string name="vista_42_hint">On top and center of waterfall side of railing on bridge</string>
+    <string name="vista_43_name">The Seedbed</string>
+    <string name="vista_43_hint">Right in front of giant glowing mushroom</string>
+    <string name="vista_44_name">Buscarron\'s Druthers</string>
+    <string name="vista_44_hint">On balcony from main bar. Get there by jumping from wall to side roof.</string>
+    <string name="vista_45_name">South Shroud Landing</string>
+    <string name="vista_45_hint">On the windowsill beside the "hut"</string>
+    <string name="vista_46_name">Urth\'s Gift</string>
+    <string name="vista_46_hint">On the right hand side of the sideway when facing the end of the area.</string>
+    <string name="vista_47_name">Quarrymill</string>
+    <string name="vista_47_hint">On top of chimney on house farthest from Aetherite (shaped like a mushroom). Jump from balcony.</string>
+    <string name="vista_48_name">Ixali Logging Grounds</string>
+    <string name="vista_48_hint">The log-pile at the back of the area. Jump from the northernmost upright to the middle upright on chocobo.</string>
+    <string name="vista_49_name">Fallen Neurolink</string>
+    <string name="vista_49_hint">Near edge of cliff looking at giant arc.</string>
+    <string name="vista_50_name">Alder Springs</string>
+    <string name="vista_50_hint">Drop down from above. Start at stump of tree that broke off near edge of cliff and fall down directly below to another root/branch extending out. Take left fork twice. Go SLOW!</string>
+    <string name="vista_51_name">Castrum Marinum</string>
+    <string name="vista_51_hint">On the lamp</string>
+    <string name="vista_52_name">Vesper Bay</string>
+    <string name="vista_52_hint">Top of the building</string>
+    <string name="vista_53_name">Black Brush Station</string>
+    <string name="vista_53_hint">Jump from the top of the building to the lamp post on the left hand side.</string>
+    <string name="vista_54_name">Gate of Nald</string>
+    <string name="vista_54_hint">On top of a canvas.</string>
+    <string name="vista_55_name">The Burning Wall</string>
+    <string name="vista_55_hint">On top of the small crystal, drop down from the ledge just above</string>
+    <string name="vista_56_name">The Golden Bazaar</string>
+    <string name="vista_56_hint">On top of the small wooden gate building, jump to fence. Use fence to jump to higher platform. Vista on top of platform above 2 NPC at the front.</string>
+    <string name="vista_57_name">Thal\'s Respite</string>
+    <string name="vista_57_hint">In front of the statue.</string>
+    <string name="vista_58_name">Nald\'s Reflection</string>
+    <string name="vista_58_hint">In front of the statue.</string>
+    <string name="vista_59_name">Zahar\'ak</string>
+    <string name="vista_59_hint">On top of the stone column. Jump with mount.</string>
+    <string name="vista_60_name">The Sagolii Desert</string>
+    <string name="vista_60_hint">On top of large mound next to tower ruin on ground.</string>
+    <string name="vista_61_name">The Sunken Temple of Qarn</string>
+    <string name="vista_61_hint">Use rocks to jump up on to the sloped building</string>
+    <string name="vista_62_name">Minotaur Malm</string>
+    <string name="vista_62_hint">Stand beside the drill sergeant near the exercising recruits.</string>
+    <string name="vista_63_name">East Watchtower</string>
+    <string name="vista_63_hint">Salute on top of the tower, on the flagpole</string>
+    <string name="vista_64_name">Ceruleum Pipeline</string>
+    <string name="vista_64_hint">On top of the gate, north side</string>
+    <string name="vista_65_name">Bluefog</string>
+    <string name="vista_65_hint">On the fence</string>
+    <string name="vista_66_name">Raubahn\'s Push</string>
+    <string name="vista_66_hint">On one of the southwestern spires</string>
+    <string name="vista_67_name">Abandoned Amajina Mythril Mine</string>
+    <string name="vista_67_hint">On a little ledge attached to a broken pillar near stairs. Very tricky jump! Use sprint or mount from roof to ledge. Stand on broken gap in railing when you jump.</string>
+    <string name="vista_68_name">The Nail</string>
+    <string name="vista_68_hint">Jump onto a lamp and from there to the ladder in the center.</string>
+    <string name="vista_69_name">The Observatorium</string>
+    <string name="vista_69_hint">Take a couple of steps down from the first floor and walk/fall off into the center of the tower, landing on the highest chandelier.</string>
+    <string name="vista_70_name">The Frozen Fang</string>
+    <string name="vista_70_hint">Go out onto the bridge towards the Stone Vigil. At the end of the bridge turn right and walk along the small ledge that sticks out until you\'re at the middle of the semi-circle part of the bridge.</string>
+    <string name="vista_71_name">The Holy See of Ishgard</string>
+    <string name="vista_71_hint">Way up on the tower, use the wooden stairs to get all the way up.</string>
+    <string name="vista_72_name">Boulder Downs</string>
+    <string name="vista_72_hint">Top of monument tower next to NPC</string>
+    <string name="vista_73_name">The Fury\'s Gaze</string>
+    <string name="vista_73_hint">Inside the cave before you reach the plasmoids.</string>
+    <string name="vista_74_name">Snowcloak</string>
+    <string name="vista_74_hint">Climb up.</string>
+    <string name="vista_75_name">Camp Dragonhead</string>
+    <string name="vista_75_hint">Climb up to the eastern battlements and head south to draw parallel to the green-roofed building. Jump up onto a higher crenelation that\'s in line with a buttress opposite and sprint one step and jump over to the building.</string>
+    <string name="vista_76_name">The Steel Vigil</string>
+    <string name="vista_76_hint">Up above on the ruins, requires immense jumping skills.</string>
+    <string name="vista_77_name">Castrum Centri</string>
+    <string name="vista_77_hint">On top of red light just past four cylinders. Jump up onto the smaller ledge and then onto the ledge leading towards the light.</string>
+    <string name="vista_78_name">The Crystal Tower</string>
+    <string name="vista_78_hint">Follow path that curves to the left to go to the upper level. Vista is near a tree by the edge.</string>
+    <string name="vista_79_name">Rathefrost</string>
+    <string name="vista_79_hint">On top of rock near crystal tree.</string>
+    <string name="vista_80_name">The Keeper of the Lake</string>
+    <string name="vista_80_hint">sit on top of tree. To get there you must jump from Big broken red metal thing. To get up there start on the opposite side (as the tree) near a smaller red metal object. Walk up and jump on small metal rib. From there jump onto back of Big broken red metal thing</string>
+
+</resources>

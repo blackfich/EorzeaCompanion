@@ -1,0 +1,515 @@
+<nodes>
+    <unspoiled-node alternate="false" map="east_shroud" time="1" type="botanist" version="2" x="22"
+        y="26">
+        <item id="silkworm_cocoon" slot="4" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="mor_dhona" time="1" type="botanist" version="2" x="32"
+        y="11">
+        <item id="grade_4_carbonized_matter" slot="1" stars="0" />
+        <item id="lightning_cluster" slot="2" stars="0" />
+        <item id="fire_cluster" slot="3" stars="0" />
+        <item id="wind_cluster" slot="4" stars="0" />
+        <item id="water_cluster" slot="5" stars="0" />
+        <item id="ice_cluster" slot="6" stars="0" />
+        <item id="earth_cluster" slot="7" stars="0" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="south_shroud" time="2" type="botanist" version="2" x="18"
+        y="23">
+        <item id="fragrant_log" slot="6" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="central_shroud" time="2" type="botanist" version="2"
+        x="16" y="20">
+        <item id="shroud_tea_leaves" slot="6" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="north_shroud" time="3" type="botanist" version="2" x="18"
+        y="26">
+        <item id="scarlet_sap" slot="4" stars="2" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="middle_la_noscea" time="4" type="botanist" version="2"
+        x="29" y="21">
+        <item id="ebony_log" slot="6" stars="3" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="east_shroud" time="5" type="botanist" version="2" x="17"
+        y="19">
+        <item id="trillium" slot="1" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="eastern_la_noscea" time="5" type="botanist" version="2"
+        x="26" y="32">
+        <item id="honey_lemon" slot="2" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="mor_dhona" time="5" type="botanist" version="2" x="32"
+        y="21">
+        <item id="grade_4_carbonized_matter" slot="1" stars="0" />
+        <item id="lightning_cluster" slot="2" stars="0" />
+        <item id="fire_cluster" slot="3" stars="0" />
+        <item id="wind_cluster" slot="4" stars="0" />
+        <item id="water_cluster" slot="5" stars="0" />
+        <item id="ice_cluster" slot="6" stars="0" />
+        <item id="earth_cluster" slot="7" stars="0" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="lower_la_noscea" time="6" type="botanist" version="2"
+        x="32" y="11">
+        <item id="young_cieldalaes_spinach" slot="6" stars="2" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="central_shroud" time="6" type="botanist" version="2"
+        x="30" y="19">
+        <item id="redolent_log" slot="6" stars="2" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="upper_la_noscea" time="7" type="botanist" version="2"
+        x="28" y="25">
+        <item id="blood_orange" slot="2" stars="2" />
+        <item id="bamboo_stick" slot="6" stars="2" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="western_la_noscea" time="8" type="botanist" version="2"
+        x="34" y="28">
+        <item id="la_noscean_leek" slot="6" stars="2" />
+        <item id="waterfowl_feather" slot="8" stars="2" variable="true" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="middle_la_noscea" time="9" type="botanist" version="2"
+        x="19" y="16">
+        <item id="apricot" slot="2" stars="2" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="central_coerthas" time="9" type="botanist" version="2"
+        x="27" y="12">
+        <item id="spruce_log" slot="6" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="eastern_la_noscea" time="9" type="botanist" version="2"
+        x="30" y="26">
+        <item id="prickly_pineapple" slot="4" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="mor_dhona" time="9" type="botanist" version="2" x="32"
+        y="11">
+        <item id="grade_4_carbonized_matter" slot="1" stars="0" />
+        <item id="lightning_cluster" slot="2" stars="0" />
+        <item id="fire_cluster" slot="3" stars="0" />
+        <item id="wind_cluster" slot="4" stars="0" />
+        <item id="water_cluster" slot="5" stars="0" />
+        <item id="ice_cluster" slot="6" stars="0" />
+        <item id="earth_cluster" slot="7" stars="0" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="central_shroud" time="10" type="botanist" version="2"
+        x="25" y="29">
+        <item id="cypress_log" slot="6" stars="3" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="central_coerthas" time="13" type="botanist" version="2"
+        x="27" y="24">
+        <item id="vampire_plant" slot="8" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="eastern_thanalan" time="13" type="botanist" version="2"
+        x="12" y="16">
+        <item id="black_truffle" slot="2" stars="1" />
+        <item id="mazlaya_greens" slot="3" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="eastern_la_noscea" time="13" type="botanist" version="2"
+        x="12" y="16">
+        <item id="dzemael_tomato" slot="3" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="central_coerthas" time="17" type="botanist" version="2"
+        x="8" y="13">
+        <item id="thavnairian_mistletoe" slot="2" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="east_shroud" time="17" type="botanist" version="2" x="22"
+        y="30">
+        <item id="rosemary" slot="1" stars="3" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="east_shroud" time="21" type="botanist" version="2" x="13"
+        y="23">
+        <item id="kidragora" slot="1" stars="7" />
+        <item id="trillium_bulb" slot="8" stars="7" />
+    </unspoiled-node>
+
+    <!-- HW Botanist nodes -->
+    <unspoiled-node alternate="false" map="dravanian_forelands" time="2" twice-per-day="true" type="botanist"
+        version="3" x="26" y="12">
+        <item id="old_world_fig" level="55" slot="2" stars="0" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="churning_mists" time="17" type="botanist" version="3"
+        x="17" y="36">
+        <item id="seventh_heaven" level="60" slot="1" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="sea_of_clouds" time="17" type="botanist" version="3"
+        x="24" y="6">
+        <item id="honeydew_almonds" level="60" slot="2" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="western_coerthas" time="17" type="botanist" version="3"
+        x="23" y="21">
+        <item id="vanilla_beans" level="60" slot="3" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="dravanian_hinterlands" time="19" type="botanist"
+        version="3" x="39" y="26">
+        <item id="snurbleberry" level="60" slot="2" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="western_coerthas" time="19" type="botanist" version="3"
+        x="25" y="32">
+        <item id="dravanian_paprika" level="60" slot="3" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="azys_lla" time="19" type="botanist" version="3" x="22"
+        y="10">
+        <item id="wattle_bark" level="60" slot="5" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="western_coerthas" time="9" twice-per-day="true" type="botanist"
+        version="3" x="8" y="9">
+        <item id="chysahl_greens" level="60" slot="6" stars="0" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="western_coerthas" time="10" twice-per-day="true" type="botanist"
+        version="3" x="31" y="20">
+        <item id="chives" level="55" slot="1" stars="0" />
+        <item id="pearl_sprouts" level="52" slot="6" stars="0" />
+        <item id="coerthan_tea_leaves" level="53" slot="7" stars="0" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="sea_of_clouds" time="10" twice-per-day="true" type="botanist"
+        version="3" x="35" y="23">
+        <item id="heavens_lemon" level="60" slot="2" stars="0" />
+        <item id="abalathian_mistletoe" level="60" slot="3" stars="0" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="churning_mists" time="12" twice-per-day="true" type="botanist"
+        version="3" x="24" y="6">
+        <item id="dravanian_mistletoe" level="55" slot="3" stars="0" />
+        <item id="porcini" level="55" slot="7" stars="0" />
+    </unspoiled-node>
+
+    <unspoiled-node alternate="false" map="dravanian_hinterlands" time="12" twice-per-day="true"
+        type="botanist" version="3" x="19" y="36">
+        <item id="cloud_banana" level="60" slot="2" stars="0" />
+        <item id="morel" level="60" slot="7" stars="0" />
+    </unspoiled-node>
+
+    <ephemeral-node map="western_coerthas" time="12" type="botanist" version="3" x="10" y="14">
+        <item id="wind_cluster" level="1" slot="1" stars="0" />
+        <item id="highland_oregano" level="56" slot="2" stars="0" />
+        <item hidden="true" id="furymint" level="58" slot="3" stars="0" variable="true" />
+        <item hidden="true" id="clary_sage" level="60" slot="4" stars="0" variable="true" />
+    </ephemeral-node>
+
+    <ephemeral-node map="dravanian_hinterlands" time="4" type="botanist" version="3" x="13" y="19">
+        <item id="earth_cluster" level="1" slot="1" stars="0" />
+        <item id="granular_clay" level="56" slot="2" stars="0" />
+        <item hidden="true" id="peat_moss" level="58" slot="3" stars="0" variable="true" />
+        <item hidden="true" id="black_soil" level="60" slot="4" stars="0" variable="true" />
+    </ephemeral-node>
+
+    <ephemeral-node map="dravanian_forelands" time="8" type="botanist" version="3" x="10" y="32">
+        <item id="earth_cluster" level="1" slot="1" stars="0" />
+        <item id="granular_clay" level="56" slot="2" stars="0" />
+        <item hidden="true" id="peat_moss" level="58" slot="3" stars="0" variable="true" />
+        <item hidden="true" id="black_soil" level="60" slot="4" stars="0" variable="true" />
+    </ephemeral-node>
+
+    <ephemeral-node map="churning_mists" time="16" type="botanist" version="3" x="19" y="29">
+        <item id="earth_cluster" level="1" slot="1" stars="0" />
+        <item id="granular_clay" level="56" slot="2" stars="0" />
+        <item hidden="true" id="peat_moss" level="58" slot="3" stars="0" variable="true" />
+        <item hidden="true" id="black_soil" level="60" slot="4" stars="0" variable="true" />
+    </ephemeral-node>
+
+    <ephemeral-node map="sea_of_clouds" time="12" type="botanist" version="3" x="26" y="35">
+        <coords>
+            <coord x="26" y="35" />
+            <coord x="23" y="12" />
+        </coords>
+        <item id="wind_cluster" level="1" slot="1" stars="0" />
+        <item id="highland_oregano" level="56" slot="2" stars="0" />
+        <item hidden="true" id="furymint" level="58" slot="3" stars="0" variable="true" />
+        <item hidden="true" id="clary_sage" level="60" slot="4" stars="0" variable="true" />
+    </ephemeral-node>
+
+    <folklore-node map="churning_mists" time="17" type="botanist" version="3" x="16" y="26">
+        <item id="seventh_heaven" level="60" slot="1" stars="1" />
+    </folklore-node>
+
+    <folklore-node map="western_coerthas" time="17" type="botanist" version="3" x="23" y="21">
+        <item id="vanilla_beans" level="60" slot="3" stars="1" />
+    </folklore-node>
+
+    <folklore-node map="western_coerthas" time="17" type="botanist" version="3" x="24" y="6">
+        <item id="honeydew_almonds" level="60" slot="2" stars="1" />
+    </folklore-node>
+
+    <folklore-node alternate="false" map="azys_lla" time="19" type="botanist" version="3" x="22"
+        y="8">
+        <item id="wattle_bark" level="60" slot="5" stars="1" />
+    </folklore-node>
+
+    <folklore-node alternate="false" map="western_coerthas" time="19" type="botanist" version="3"
+        x="27" y="33">
+        <item id="dravanian_paprika" level="60" slot="3" stars="1" />
+    </folklore-node>
+
+    <folklore-node alternate="false" map="dravanian_hinterlands" time="19" type="botanist"
+        version="3" x="39" y="26">
+        <item id="snurbleberry" level="60" slot="2" stars="1" />
+    </folklore-node>
+
+
+    <!-- Mining -->
+
+    <unspoiled-node map="central_coerthas" time="1" type="miner" version="2" x="27" y="19">
+        <item id="darksteel_ore" slot="3" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="eastern_la_noscea" time="1" type="miner" version="2" x="17" y="26">
+        <item id="pumice" slot="1" stars="3" />
+    </unspoiled-node>
+
+    <unspoiled-node map="eastern_thanalan" time="2" type="miner" version="2" x="26" y="19">
+        <item id="antumbral_rock" slot="7" stars="2" />
+    </unspoiled-node>
+
+    <unspoiled-node map="northern_thanalan" time="3" type="miner" version="2" x="16" y="19">
+        <item id="ferberite" slot="6" stars="2" />
+        <item id="raw_topaz" slot="7" stars="2" />
+        <itme id="raw_iolite" slot="8" stars="2" />
+    </unspoiled-node>
+
+    <unspoiled-node map="central_thanalan" time="4" type="miner" version="2" x="24" y="16">
+        <item id="native_gold" slot="6" stars="2" />
+        <item id="raw_emerald" slot="7" stars="2" />
+        <item id="raw_diamond" slot="8" stars="2" />
+    </unspoiled-node>
+
+    <unspoiled-node map="southern_thanalan" time="4" type="miner" version="2" x="19" y="8">
+        <item id="platinum_ore" slot="6" stars="3" />
+    </unspoiled-node>
+
+    <unspoiled-node map="western_thanalan" time="5" type="miner" version="2" x="18" y="27">
+        <item id="water_cluster" slot="5" />
+        <item id="grade_3_thanalan_topsoil" slot="8" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="eastern_thanalan" time="5" type="miner" version="2" x="25" y="22">
+        <item id="gold_sand" slot="2" />
+    </unspoiled-node>
+
+    <unspoiled-node map="south_shroud" time="6" type="miner" version="2" x="16" y="31">
+        <item id="umbral_rock" slot="7" stars="1" />
+        <item id="grade_3_shroud_topsoil" slot="8" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="eastern_thanalan" time="9" type="miner" version="2" x="28" y="22">
+        <item id="gregarious_worm" slot="1" />
+        <item id="gold_ore" slot="6" stars="1" />
+        <item id="coblyn_larva" slot="7" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="mor_dhona" time="13" type="miner" version="2" x="28" y="12">
+        <item id="grade_4_carbonized_matter" slot="1" />
+        <item id="lightning_cluster" slot="2" />
+        <item id="fire_cluster" slot="3" />
+        <item id="wind_cluster" slot="4" />
+        <item id="water_cluster" slot="5" />
+        <item id="ice_cluster" slot="6" />
+        <item id="earth_cluster" slot="7" />
+    </unspoiled-node>
+
+    <unspoiled-node map="eastern_la_noscea" time="17" type="miner" version="2" x="21" y="32">
+        <item id="volcanic_rock_salt" slot="1" stars="2" />
+    </unspoiled-node>
+
+    <unspoiled-node map="mor_dhona" time="17" type="miner" version="2" x="27" y="10">
+        <item id="grade_4_carbonized_matter" slot="1" />
+        <item id="lightning_cluster" slot="2" />
+        <item id="fire_cluster" slot="3" />
+        <item id="wind_cluster" slot="4" />
+        <item id="water_cluster" slot="5" />
+        <item id="ice_cluster" slot="6" />
+        <item id="earth_cluster" slot="7" />
+    </unspoiled-node>
+
+    <unspoiled-node map="northern_thanalan" time="17" type="miner" version="2" x="24" y="26">
+        <item id="virgin_basilisk_egg" slot="6" stars="3" />
+    </unspoiled-node>
+
+    <unspoiled-node map="lower_la_noscea" time="18" type="miner" version="2" x="23" y="21">
+        <item id="raw_ruby" slot="7" stars="2" />
+        <item id="raw_sapphire" slot="8" stars="2" />
+    </unspoiled-node>
+
+    <unspoiled-node map="middle_la_noscea" time="19" type="miner" version="2" x="25" y="27">
+        <item id="fire_cluster" slot="3" />
+        <item id="grade_3_la_noscean_topsoil" slot="8" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="central_coerthas" time="21" type="miner" version="2" x="23" y="23">
+        <item id="astral_rock" slot="7" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="mor_dhona" time="21" type="miner" version="2" x="28" y="12">
+        <item id="grade_4_carbonized_matter" slot="1" />
+        <item id="lightning_cluster" slot="2" />
+        <item id="fire_cluster" slot="3" />
+        <item id="wind_cluster" slot="4" />
+        <item id="water_cluster" slot="5" />
+        <item id="ice_cluster" slot="6" />
+        <item id="earth_cluster" slot="7" />
+    </unspoiled-node>
+
+
+    <unspoiled-node map="churning_mists" min-gathering="400" time="2" twice-per-day="true" type="miner" version="3"
+        x="33" y="22">
+        <item id="yellow_quartz" level="55" slot="4" />
+        <item id="green_quartz" level="55" slot="6" />
+    </unspoiled-node>
+
+    <unspoiled-node map="dravanian_hinterlands" min-gathering="450" time="2" twice-per-day="true" type="miner" version="3"
+        x="34" y="30">
+        <item collection="blue" id="cuprite" level="60" slot="2" />
+        <item collection="blue" id="light_kidney_ore" level="60" slot="3" />
+    </unspoiled-node>
+
+    <unspoiled-node map="western_coerthas" min-gathering="470" time="5" type="miner" version="3" x="37"
+        y="16">
+        <item collection="red" id="astral_moraine" level="60" slot="4" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="churning_mists" min-gathering="470" time="5" type="miner" version="3" x="11"
+        y="38">
+        <item collection="red" id="aurum_regis_ore" level="60" slot="6" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="western_coerthas" min-gathering="470" time="5" type="miner" version="3" x="35"
+        y="39">
+        <item collection="red" id="sun_mica" level="60" slot="2" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="dravanian_hinterlands" min-gathering="600" time="7" type="miner" version="3" x="11"
+        y="16">
+        <item id="blue_quartz" level="60" slot="7" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="azys_lla" min-gathering="600" time="7" type="miner" version="3" x="35"
+        y="16">
+        <item id="red_alumen" level="60" slot="2" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="western_coerthas" min-gathering="600" time="7" type="miner" version="3" x="11"
+        y="21">
+        <item id="violet_quartz" level="60" slot="6" stars="1" />
+    </unspoiled-node>
+
+    <unspoiled-node map="dravanian_forelands" min-gathering="300" time="10" twice-per-day="true" type="miner" version="3"
+        x="26" y="17">
+        <item id="chalcocite" level="55" slot="2" />
+        <item id="pyrite" level="55" slot="3" />
+        <item id="limonite" level="55" slot="4" />
+    </unspoiled-node>
+
+    <unspoiled-node map="azys_lla" time="11" twice-per-day="true" type="miner" version="3" x="24"
+        y="6">
+        <item collection="red" id="adamantite_ore" level="60" min-gathering="470" slot="6" />
+    </unspoiled-node>
+
+    <unspoiled-node map="western_coerthas" time="0" twice-per-day="true" type="miner" version="3" x="30"
+        y="23">
+        <item id="yellow_copper_ore" level="55" min-gathering="240" slot="2" />
+    </unspoiled-node>
+
+    <unspoiled-node map="sea_of_clouds" time="0" twice-per-day="true" type="miner" version="3" x="7"
+        y="7">
+        <item collection="blue" id="abalathian_rock_salt" level="60" min-gathering="450" slot="1" />
+        <item collection="blue" id="red_quartz" level="60" min-gathering="450" slot="6" />
+    </unspoiled-node>
+
+    <!-- ephemeral -->
+
+    <ephemeral-node map="dravanian_forelands" time="4" type="miner" version="3" x="17" y="27">
+        <item id="fire_cluster" slot="1" />
+        <itme id="fire_moraine" level="56" slot="2" />
+        <itme hidden="true" id="bright_fire_rock" level="58" slot="3" variable-slot="true" />
+        <itme hidden="true" id="radiant_fire_moraine" level="58" slot="4" variable-slot="true" />
+    </ephemeral-node>
+
+    <ephemeral-node map="dravanian_hinterlands" time="8" type="miner" version="3" x="26" y="24">
+        <item id="fire_cluster" slot="1" />
+        <itme id="fire_moraine" level="56" slot="2" />
+        <itme hidden="true" id="bright_fire_rock" level="58" slot="3" variable-slot="true" />
+        <itme hidden="true" id="radiant_fire_moraine" level="58" slot="4" variable-slot="true" />
+    </ephemeral-node>
+
+    <ephemeral-node map="churning_mists" time="12" type="miner" version="3" x="29" y="19">
+        <item id="fire_cluster" slot="1" />
+        <itme id="fire_moraine" level="56" slot="2" />
+        <itme hidden="true" id="bright_fire_rock" level="58" slot="3" variable-slot="true" />
+        <itme hidden="true" id="radiant_fire_moraine" level="58" slot="4" variable-slot="true" />
+    </ephemeral-node>
+
+    <ephemeral-node map="sea_of_clouds" time="16" type="miner" version="3" x="34" y="30">
+        <item id="lightning_cluster" slot="1" />
+        <itme id="lightning_moraine" level="56" slot="2" />
+        <itme hidden="true" id="bright_lightning_rock" level="58" slot="3" variable-slot="true" />
+        <itme hidden="true" id="radiant_lightning_moraine" level="58" slot="4"
+            variable-slot="true" />
+    </ephemeral-node>
+
+    <ephemeral-node map="western_coerthas" time="20" type="miner" version="3" x="21" y="28">
+        <item id="lightning_cluster" slot="1" />
+        <itme id="lightning_moraine" level="56" slot="2" />
+        <itme hidden="true" id="bright_lightning_rock" level="58" slot="3" variable-slot="true" />
+        <itme hidden="true" id="radiant_lightning_moraine" level="58" slot="4"
+            variable-slot="true" />
+    </ephemeral-node>
+
+    <!-- folklore -->
+    <folklore-node map="western_coerthas" min-gathering="600" time="5" type="miner" version="3" x="37"
+        y="16">
+        <item id="astral_moraine" slot="4" />
+    </folklore-node>
+
+    <folklore-node map="western_coerthas" min-gathering="600" time="7" type="miner" version="3" x="11"
+        y="23">
+        <item id="violet_quartz" slot="6" />
+    </folklore-node>
+
+    <folklore-node map="churning_mists" min-gathering="600" time="5" type="miner" version="3" x="11"
+        y="38">
+        <item id="aurum_regis_ore" slot="6" />
+    </folklore-node>
+
+    <folklore-node map="western_coerthas" min-gathering="600" time="5" type="miner" version="3" x="35"
+        y="39">
+        <item id="sun_mica" slot="2" />
+    </folklore-node>
+
+    <folklore-node map="azys_lla" min-gathering="600" time="7" type="miner" version="3" x="35"
+        y="16">
+        <item id="red_alumen" slot="2" />
+    </folklore-node>
+
+    <folklore-node map="dravanian_hinterlands" min-gathering="600" time="7" type="miner" version="3" x="11"
+        y="16">
+        <item id="blue_quartz" slot="7" />
+    </folklore-node>
+
+</nodes>

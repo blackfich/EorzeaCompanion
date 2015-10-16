@@ -1,0 +1,5 @@
+<minions>
+    <minion id="accompaniment_node" quest="do_it_for_gilly" />
+    <minion id="assassin_fry" />
+    <minion id="atrophied_atomos" />
+</minions>

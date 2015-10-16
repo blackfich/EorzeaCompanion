@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/mediumroundedborderbackground"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:minWidth="320dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgNodeType"
+            android:src="@drawable/gathering_botanist" />
+
+        <TextView
+            android:id="@+id/txtNodeType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gathering"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/imageView2"
+        android:background="#808080"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstSlots"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnClose"
+        android:id="@+id/btnClose"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true" />
+
+</LinearLayout>
