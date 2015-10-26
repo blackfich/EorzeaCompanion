@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
+<!--
         <ImageView
             android:id="@+id/imgFilterBotanist"
             android:layout_width="30dp"
@@ -83,6 +83,13 @@
             android:layout_marginRight="2dp"
             android:clickable="false"
             android:src="@drawable/filter_time_off" />
+-->
+
+        <Button
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_filters"
+            android:id="@+id/btnFilters" />
 
         <TextView
             android:id="@+id/txtFiller"
@@ -93,15 +100,16 @@
 
         <TextView
             android:id="@+id/txtEorzeaTime"
-            android:layout_width="61dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:layout_gravity="center_vertical"
-            android:text="00:00"
-            android:textAlignment="gravity"
-            android:textColor="#FFFFFF" />
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ET 00:00"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="5dp" />
     </LinearLayout>
 
     <ListView

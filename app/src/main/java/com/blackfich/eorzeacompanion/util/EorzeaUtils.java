@@ -6,6 +6,7 @@ import android.util.TypedValue;
 
 import com.blackfich.eorzeacompanion.activity.gathering.GatheringNode;
 import com.blackfich.eorzeacompanion.activity.vistas.Vista;
+import com.blackfich.eorzeacompanion.util.filter.constraints.TimeConstrainable;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -104,5 +105,30 @@ public class EorzeaUtils {
     public static int dpToPx(int dp, DisplayMetrics displayMetrics) {
         float pixels = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp, displayMetrics);
         return Math.round(pixels);
+    }
+
+    public static int timeFilteringFromString(String string) {
+        if ( string == null ) {
+            return TimeConstrainable.FILTER_NONE;
+        }
+        if ( string.indexOf('T') != -1 ) {
+            return TimeConstrainable.FILTER_CURRENT;
+        }
+        if ( string.indexOf('t') != -1 ) {
+            return TimeConstrainable.FILTER_CURRENT_PLUS_1;
+        }
+        return TimeConstrainable.FILTER_NONE;
+    }
+
+    public static String timeFilteringToString(int timeConstraint) {
+        switch (timeConstraint ) {
+            case TimeConstrainable.FILTER_CURRENT:
+                return "T";
+            case TimeConstrainable.FILTER_CURRENT_PLUS_1:
+                return "t";
+            default:
+            case TimeConstrainable.FILTER_NONE:
+                return "";
+        }
     }
 }

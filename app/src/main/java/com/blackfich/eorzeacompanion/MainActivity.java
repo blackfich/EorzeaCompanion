@@ -2,6 +2,7 @@ package com.blackfich.eorzeacompanion;
 
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
@@ -10,6 +11,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -21,7 +23,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.blackfich.eorzeacompanion.util.bean.JSONable;
 import com.blackfich.eorzeacompanion.util.ui.EorzeanFragment;
 import com.blackfich.eorzeacompanion.activity.about.AboutFragment;
 import com.blackfich.eorzeacompanion.activity.gathering.GatheringFragment;
@@ -43,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
     private static int eorzeaTime = -1;
     private static int prevEorzeaTime = -1;
     Timer timer = new Timer();
-    private Fragment currentFragment;
+    private EorzeanFragment currentFragment;
+
     final Handler updateEorzeaClockHandler = new Handler(new Handler.Callback() {
         @Override
         public boolean handleMessage(Message msg) {
@@ -59,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
     });
+    private HomeFragment homeFragment;
     private AboutFragment aboutFragment;
     private GatheringFragment gatheringFragment;
     private VistasFragment vistasFragment;
@@ -96,9 +102,23 @@ public class MainActivity extends AppCompatActivity {
         timer = new Timer();
         timer.schedule(new UpdateEorzeaClockTask(), 0, 100);
 
-        showFragment(getAboutFragment());
+
+        showFragment(getHomeFragment());
     }
 
+    @Override
+    public void onBackPressed() {
+        Log.d(null, "onBackPressed");
+        if ( popupWindow != null && popupWindow.isShowing() ) {
+            popupWindow.dismiss();
+        } else if ( currentFragment != null && !HomeFragment.NAME.equals(currentFragment.getName()) ) {
+            showFragment(HomeFragment.NAME);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -114,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        Fragment fragment = null;
+        EorzeanFragment fragment = null;
         if (id == R.id.action_about) {
             fragment = getAboutFragment();
         } else if (id == R.id.action_gathering) {
@@ -130,6 +150,7 @@ public class MainActivity extends AppCompatActivity {
             return super.onOptionsItemSelected(item);
         }
     }
+    */
 
     public String getString(String name) {
         String packageName = getPackageName();
@@ -164,10 +185,33 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void showFragment(Fragment fragment) {
-        getSupportFragmentManager().beginTransaction().replace(R.id.layoutMain, fragment).commit();
-        currentFragment = fragment;
-        updateFragmentTime();
+    private void showFragment(EorzeanFragment fragment) {
+        if ( fragment != currentFragment ) {
+            putPreference("fragment", fragment.getName());
+            getSupportFragmentManager().beginTransaction().replace(R.id.layoutMain, fragment).commit();
+            currentFragment = fragment;
+            updateFragmentTime();
+        }
+    }
+
+    public void showFragment(String name) {
+        showFragment(getFragment(name));
+    }
+
+    private EorzeanFragment getFragment(String name) {
+        if ( AboutFragment.NAME.equals(name) ) {
+            return getAboutFragment();
+        }
+        if ( GatheringFragment.NAME.equals(name) ) {
+            return getGatheringFragment();
+        }
+        if ( VistasFragment.NAME.equals(name) ) {
+            return getVistasFragment();
+        }
+        if ( HomeFragment.NAME.equals(name) ) {
+            return getHomeFragment();
+        }
+        return getAboutFragment();
     }
 
     private AboutFragment getAboutFragment() {
@@ -175,6 +219,14 @@ public class MainActivity extends AppCompatActivity {
             aboutFragment = new AboutFragment();
         }
         return aboutFragment;
+    }
+
+
+    private HomeFragment getHomeFragment() {
+        if (homeFragment == null) {
+            homeFragment = new HomeFragment();
+        }
+        return homeFragment;
     }
 
     private GatheringFragment getGatheringFragment() {
@@ -191,7 +243,30 @@ public class MainActivity extends AppCompatActivity {
         return vistasFragment;
     }
 
+    public String getPreference(String name, String defaultValue) {
+        SharedPreferences preferences = getPreferences(MODE_PRIVATE);
+        return preferences.getString(name, defaultValue);
+    }
 
+    public void putPreference(String name, String value) {
+        SharedPreferences preferences = getPreferences(MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString(name, value);
+        editor.commit();
+    }
+
+    public void putPreference(String name, JSONable value) {
+        SharedPreferences preferences = getPreferences(MODE_PRIVATE);
+        SharedPreferences.Editor editor = preferences.edit();
+        editor.putString(name, value.toJSON().toString());
+        editor.commit();
+    }
+
+    public boolean showHint(String string) {
+        String hint = getString("hint_" + string);
+        Toast.makeText(getBaseContext(), hint, Toast.LENGTH_SHORT).show();
+        return true;
+    }
 
     public View showPopup(int layoutId) {
         LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -201,10 +276,11 @@ public class MainActivity extends AppCompatActivity {
         //popupWindow = new PopupWindow(popupLayout, 425, 600, true);
         popupWindow = new PopupWindow(popupLayout, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, true);
         popupWindow.showAtLocation(popupLayout, Gravity.CENTER, 0, 0);
-        popupWindow.setOutsideTouchable(false);
+        popupWindow.setOutsideTouchable(true);
         popupWindow.setTouchable(true);
+
         // popupWindow.setBackgroundDrawable(new BitmapDrawable());
-        ImageView imgClose = (ImageView) popupLayout.findViewById(R.id.imgCloseWindow);
+        ImageView imgClose = (ImageView) popupLayout.findViewById(R.id.imgClose);
         if (imgClose != null) {
             imgClose.setOnClickListener(new View.OnClickListener() {
                 @Override

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/mediumroundedborderbackground"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:minWidth="320dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgNodeType"
+            android:src="@drawable/btn_gathering" />
+
+        <TextView
+            android:id="@+id/txtNodeType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_gathering_filters"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:typeface="serif"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgClose"
+            android:src="@drawable/btn_close"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/imageView2"
+        android:background="#808080"
+        android:layout_marginBottom="5dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/txt_filter_category"
+                android:id="@+id/txtFilterCategory"
+                android:textColor="#FFFFFF"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgFilterBotanist"
+                    android:src="@drawable/gathering_filter_botanist_on"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:longClickable="true" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgFilterMiner"
+                    android:src="@drawable/gathering_filter_miner_on"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:longClickable="true" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgFilterFisher"
+                    android:src="@drawable/gathering_filter_fisher_off"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:longClickable="true" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/txt_filter_version"
+                android:id="@+id/txtFilterVersion"
+                android:textColor="#FFFFFF"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgFilterARR"
+                    android:src="@drawable/gathering_filter_arr_on"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:longClickable="true" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgFilterHW"
+                    android:src="@drawable/gathering_filter_hw_on"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:longClickable="true" />
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/txt_filter_type"
+                android:id="@+id/txtFilterType"
+                android:textColor="#FFFFFF"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgFilterUnspoiled"
+                    android:src="@drawable/gathering_filter_unspoiled_on"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:longClickable="true" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgFilterEphemeral"
+                    android:src="@drawable/gathering_filter_ephemeral_on"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:longClickable="true" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgFilterFolklore"
+                    android:src="@drawable/gathering_filter_folklore_on"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:longClickable="true" />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/txt_filter_time"
+                android:id="@+id/txtFilterTime"
+                android:textColor="#FFFFFF"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgFilterTime"
+                    android:src="@drawable/filter_time_off"
+                    android:layout_marginRight="5dp"
+                    android:clickable="true"
+                    android:longClickable="true" />
+
+
+            </LinearLayout>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/hint_long_click_button_for_hint"
+        android:id="@+id/txtLongPressHint"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="italic" />
+    <!--
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnClose"
+            android:id="@+id/btnClose"
+            android:layout_gravity="center_horizontal" />
+    -->
+</LinearLayout>

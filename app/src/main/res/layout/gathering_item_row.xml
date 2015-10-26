@@ -47,15 +47,4 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imgShowSpots"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="right"
-        android:layout_weight="1"
-        android:adjustViewBounds="true"
-        android:clickable="true"
-        android:scaleType="fitEnd"
-        android:src="@drawable/img_show_node_items" />
-
 </LinearLayout>

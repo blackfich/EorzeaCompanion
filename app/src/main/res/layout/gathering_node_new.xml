@@ -29,7 +29,16 @@
             android:textColor="#ffffff"
             android:layout_gravity="center_vertical"
             android:layout_marginRight="5dp"
-            android:typeface="serif" />
+            android:typeface="serif"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgClose"
+            android:src="@drawable/btn_close"
+            android:clickable="true"
+            android:layout_gravity="center_vertical" />
     </LinearLayout>
 
     <ImageView
@@ -39,16 +48,24 @@
         android:background="#808080"
         android:layout_marginBottom="5dp" />
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/lstSlots"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="false"
+        android:layout_weight="1">
 
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lstSlots"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" />
+    </ScrollView>
+<!--
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,5 +73,5 @@
         android:id="@+id/btnClose"
         android:layout_gravity="center_horizontal"
         android:clickable="true" />
-
+-->
 </LinearLayout>

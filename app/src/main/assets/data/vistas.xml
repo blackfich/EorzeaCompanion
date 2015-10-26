@@ -1,163 +1,250 @@
 <vistas>
-    <vista emote="lookout" end-time="12" map="limsa_lominsa_upper_decks" n="1" start-time="8" version="2"
-        weather="clear,fair" x="9" y="7" />
-    <vista emote="lookout" end-time="5" map="limsa_lominsa_lower_decks" n="2" start-time="18" version="2"
-        weather="clear,fair" x="7" y="15" />
-    <vista emote="pray" end-time="8" map="middle_la_noscea" n="3" start-time="5" version="2" weather="rain"
-        x="20" y="19" />
-    <vista emote="lookout" end-time="17" map="middle_la_noscea" n="4" start-time="12" version="2" weather="clear,fair"
-        x="16" y="17" />
-    <vista emote="lookout" end-time="12" map="middle_la_noscea" n="5" start-time="8" version="2" weather="cloudy"
-        x="25" y="27" />
-    <vista emote="lookout" end-time="5" map="lower_la_noscea" n="6" start-time="18" version="2" weather="clear,fair"
-        x="23" y="40" />
-    <vista emote="lookout" end-time="8" map="lower_la_noscea" n="7" start-time="5" version="2" weather="fog"
-        x="33" y="19" />
-    <vista emote="lookout" end-time="8" map="western_la_noscea" n="8" start-time="5" version="2" weather="clear,fair"
-        x="29" y="30" />
-    <vista emote="lookout" end-time="17" map="old_gridania" n="9" start-time="12" version="2" weather="cloudy"
-        x="12" y="8" />
-    <vista emote="lookout" end-time="5" map="old_gridania" n="10" start-time="18" version="2" weather="clear,fair"
-        x="10" y="6" />
-    <vista emote="sit" end-time="17" map="central_shroud" n="11" start-time="12" version="2" weather="clear,fair"
-        x="21" y="21" />
-    <vista emote="pray" end-time="12" map="east_shroud" n="12" start-time="8" version="2" weather="clear,fair"
-        x="17" y="18" />
-    <vista emote="lookout" end-time="5" map="east_shroud" n="13" start-time="18" version="2" weather="clear,fair"
-        x="22" y="26" />
-    <vista emote="salute" end-time="8" map="uldah_steps_of_thal" n="14" start-time="5" version="2" weather="clear,fair"
-        x="11" y="11" />
-    <vista emote="lookout" end-time="17" map="uldah_steps_of_thal" n="15" start-time="12" version="2" weather="cloudy"
-        x="11" y="11" />
-    <vista emote="lookout" end-time="5" map="western_thanalan" n="16" start-time="18" version="2" weather="clear,fair"
-        x="22" y="22" />
-    <vista emote="lookout" end-time="12" map="central_thanalan" n="17" start-time="8" version="2" weather="fog"
-        x="15" y="22" />
-    <vista emote="comfort" end-time="18" map="eastern_thanalan" n="18" start-time="5" version="2" weather="rain"
-        x="19" y="24" />
-    <vista emote="lookout" end-time="12" map="eastern_thanalan" n="19" start-time="8" version="2" weather="cloudy"
-        x="14" y="18" />
-    <vista emote="pray" end-time="8" map="eastern_thanalan" n="20" start-time="5" version="2" weather="clear,fair"
-        x="21" y="20" />
-    <vista emote="lookout" end-time="17" map="middle_la_noscea" n="21" start-time="12" version="2" weather="clear,fair"
-        x="19" y="13" />
-    <vista emote="lookout" end-time="8" map="middle_la_noscea" n="22" start-time="5" version="2" weather="clear,fair"
-        x="25" y="17" />
-    <vista emote="lookout" end-time="17" map="lower_la_noscea" n="23" start-time="12" version="2" weather="rain"
-        x="31" y="12" />
-    <vista emote="sit" end-time="12" map="eastern_la_noscea" n="24" start-time="8" version="2" weather="clear,fair"
-        x="32" y="23" />
-    <vista emote="lookout" end-time="5" map="eastern_la_noscea" n="25" start-time="18" version="2" weather="rain"
-        x="29" y="33" />
-    <vista emote="pray" end-time="18" map="western_la_noscea" n="26" start-time="17" version="2" weather="clear,fair"
-        x="26" y="26" />
-    <vista emote="lookout" end-time="5" map="western_la_noscea" n="27" start-time="18" version="2" weather="gales"
-        x="17" y="36" />
-    <vista emote="lookout" end-time="12" map="western_la_noscea" n="28" start-time="8" version="2" weather="clear,fair"
-        x="22" y="22" />
-    <vista emote="lookout" end-time="17" map="western_la_noscea" n="29" start-time="12" version="2" weather="clear,fair"
-        x="19" y="23" />
-    <vista emote="lookout" end-time="18" map="upper_la_noscea" n="30" start-time="17" version="2" weather="clear,fair"
-        x="30" y="22" />
-    <vista emote="lookout" end-time="17" map="upper_la_noscea" n="31" start-time="12" version="2" weather="clear,fair"
-        x="12" y="22" />
-    <vista emote="lookout" end-time="5" map="upper_la_noscea" n="32" start-time="18" version="2" weather="thunderstorm"
-        x="29" y="25" />
-    <vista emote="lookout" end-time="5" map="outer_la_noscea" n="33" start-time="18" version="2" weather="clear,fair"
-        x="12" y="15" />
-    <vista emote="lookout" end-time="8" map="outer_la_noscea" n="34" start-time="5" version="2" weather="cloudy"
-        x="17" y="16" />
-    <vista emote="lookout" end-time="17" map="outer_la_noscea" n="35" start-time="12" version="2" weather="clear,fair"
-        x="23" y="11" />
-    <vista emote="sit" end-time="5" map="outer_la_noscea" n="36" start-time="18" version="2" weather="rain"
-        x="15" y="9" />
-    <vista emote="lookout" end-time="12" map="new_gridania" n="37" start-time="8" version="2" weather="clear,fair"
-        x="14" y="14" />
-    <vista emote="lookout" end-time="8" map="old_gridania" n="38" start-time="5" version="2" weather="rain"
-        x="14" y="5" />
-    <vista emote="lookout" end-time="8" map="central_shroud" n="39" start-time="5" version="2" weather="rain"
-        x="23" y="19" />
-    <vista emote="lookout" end-time="5" map="central_shroud" n="40" start-time="18" version="2" weather="clear,fair"
-        x="13" y="23" />
-    <vista emote="lookout" end-time="17" map="central_shroud" n="41" start-time="12" version="2" weather="clear,fair"
-        x="16" y="22" />
-    <vista emote="lookout" end-time="13" map="central_shroud" n="42" start-time="11" version="2" weather="clear,fair"
-        x="26" y="18" />
-    <vista emote="lookout" end-time="5" map="east_shroud" n="43" start-time="18" version="2" weather="thunderstorm"
-        x="20" y="10" />
-    <vista emote="lookout" end-time="12" map="south_shroud" n="44" start-time="8" version="2" weather="thunderstorm"
-        x="17" y="20" />
-    <vista emote="lookout" end-time="12" map="south_shroud" n="45" start-time="8" version="2" weather="clear,fair"
-        x="14" y="33" />
-    <vista emote="lookout" end-time="117" map="south_shroud" n="46" start-time="12" version="2" weather="fog"
-        x="33" y="23" />
-    <vista emote="lookout" end-time="8" map="south_shroud" n="47" start-time="5" version="2" weather="clear,fair"
-        x="25" y="21" />
-    <vista emote="lookout" end-time="17" map="north_shroud" n="48" start-time="12" version="2" weather="clear,fair"
-        x="18" y="19" />
-    <vista emote="lookout" end-time="5" map="north_shroud" n="49" start-time="18" version="2" weather="clear,fair"
-        x="16" y="31" />
-    <vista emote="lookout" end-time="12" map="north_shroud" n="50" start-time="8" version="2" weather="cloudy"
-        x="15" y="27" />
-    <vista emote="lookout" end-time="18" map="western_thanalan" n="51" start-time="17" version="2" weather="clear,fair"
-        x="8" y="5" />
-    <vista emote="point" end-time="17" map="western_thanalan" n="52" start-time="12" version="2" weather="clear,fair"
-        x="12" y="14" />
-    <vista emote="lookout" end-time="5" map="central_thanalan" n="53" start-time="18" version="2" weather="duststorm"
-        x="21" y="17" />
-    <vista emote="sit" end-time="17" map="central_thanalan" n="54" start-time="12" version="2" weather="clear,fair"
-        x="18" y="26" />
-    <vista emote="lookout" end-time="17" map="eastern_thanalan" n="55" start-time="12" version="2" weather="clear,fair"
-        x="30" y="26" />
-    <vista emote="lookout" end-time="12" map="eastern_thanalan" n="56" start-time="8" version="2" weather="clear,fair"
-        x="10" y="16" />
-    <vista emote="pray" end-time="5" map="eastern_thanalan" n="57" start-time="18" version="2" weather="showers"
-        x="25" y="14" />
-    <vista emote="pray" end-time="8" map="southern_thanalan" n="58" start-time="5" version="2" weather="fog"
-        x="12" y="22" />
-    <vista emote="lookout" end-time="8" map="southern_thanalan" n="59" start-time="5" version="2" weather="clear,fair"
-        x="19" y="20" />
-    <vista emote="lookout" end-time="17" map="southern_thanalan" n="60" start-time="12" version="2" weather="heatwave"
-        x="21" y="38" />
-    <vista emote="lookout" end-time="17" map="southern_thanalan" n="61" start-time="12" version="2" weather="clear,fair"
-        x="23" y="11" />
-    <vista emote="psych" end-time="8" map="southern_thanalan" n="62" start-time="5" version="2" weather="heatwave"
-        x="14" y="26" />
-    <vista emote="salute" end-time="8" map="northern_thanalan" n="63" start-time="5" version="2" weather="clear,fair"
-        x="22" y="25" />
-    <vista emote="lookout" end-time="5" map="northern_thanalan" n="64" start-time="18" version="2" weather="clear,fair"
-        x="20" y="29" />
-    <vista emote="lookout" end-time="17" map="northern_thanalan" n="65" start-time="12" version="2" weather="clear,fair"
-        x="20" y="22" />
-    <vista emote="lookout" end-time="12" map="northern_thanalan" n="66" start-time="8" version="2" weather="cloudy"
-        x="20" y="17" />
-    <vista emote="lookout" end-time="5" map="northern_thanalan" n="67" start-time="18" version="2" weather="fog"
-        x="26" y="22" />
-    <vista emote="lookout" end-time="18" map="central_coerthas" n="68" start-time="17" version="2" weather="clear,fair"
-        x="25" y="29" />
-    <vista emote="lookout" end-time="5" map="central_coerthas" n="69" start-time="18" version="2" weather="fog"
-        x="25" y="29" />
-    <vista emote="lookout" end-time="12" map="central_coerthas" n="70" start-time="8" version="2" weather="blizzard"
-        x="11" y="15" />
-    <vista emote="lookout" end-time="8" map="central_coerthas" n="71" start-time="5" version="2" weather="clear,fair"
-        x="12" y="17" />
-    <vista emote="lookout" end-time="18" map="central_coerthas" n="72" start-time="17" version="2" weather="clear,fair"
-        x="7" y="28" />
-    <vista emote="lookout" end-time="5" map="central_coerthas" n="73" start-time="18" version="2" weather="blizzard"
-        x="7" y="31" />
-    <vista emote="lookout" end-time="12" map="central_coerthas" n="74" start-time="8" version="2" weather="clear,fair"
-        x="2" y="21" />
-    <vista emote="lookout" end-time="17" map="central_coerthas" n="75" start-time="12" version="2" weather="clear,fair"
-        x="26" y="17" />
-    <vista emote="lookout" end-time="8" map="central_coerthas" n="76" start-time="5" version="2" weather="clear,fair"
-        x="28" y="10" />
-    <vista emote="lookout" end-time="17" map="mor_dhona" n="77" start-time="12" version="2" weather="gloom"
-        x="9" y="13" />
-    <vista emote="lookout" end-time="5" map="mor_dhona" n="78" start-time="18" version="2" weather="clear,fair"
-        x="27" y="8" />
-    <vista emote="lookout" end-time="17" map="mor_dhona" n="79" start-time="12" version="2" weather="clear,fair"
-        x="18" y="17" />
-    <vista emote="sit" end-time="18" map="mor_dhona" n="80" start-time="17" version="2" weather="clear,fair"
-        x="26" y="11" />
+    <vista emote="lookout" end-time="12" map="limsa_lominsa_upper_decks" n="1" start-time="8"
+        version="2" weather="clear,fair" x="9" y="7" />
+    <vista emote="lookout" end-time="5" map="limsa_lominsa_lower_decks" n="2" start-time="18"
+        version="2" weather="clear,fair" x="7" y="15" />
+    <vista emote="pray" end-time="8" map="middle_la_noscea" n="3" start-time="5" version="2"
+        weather="rain" x="20" y="19" />
+    <vista emote="lookout" end-time="17" map="middle_la_noscea" n="4" start-time="12" version="2"
+        weather="clear,fair" x="16" y="17" />
+    <vista emote="lookout" end-time="12" map="middle_la_noscea" n="5" start-time="8" version="2"
+        weather="cloudy" x="25" y="27" />
+    <vista emote="lookout" end-time="5" map="lower_la_noscea" n="6" start-time="18" version="2"
+        weather="clear,fair" x="23" y="40" />
+    <vista emote="lookout" end-time="8" map="lower_la_noscea" n="7" start-time="5" version="2"
+        weather="fog" x="33" y="19" />
+    <vista emote="lookout" end-time="8" map="western_la_noscea" n="8" start-time="5" version="2"
+        weather="clear,fair" x="29" y="30" />
+    <vista emote="lookout" end-time="17" map="old_gridania" n="9" start-time="12" version="2"
+        weather="cloudy" x="12" y="8" />
+    <vista emote="lookout" end-time="5" map="old_gridania" n="10" start-time="18" version="2"
+        weather="clear,fair" x="10" y="6" />
+    <vista emote="sit" end-time="17" map="central_shroud" n="11" start-time="12" version="2"
+        weather="clear,fair" x="21" y="21" />
+    <vista emote="pray" end-time="12" map="east_shroud" n="12" start-time="8" version="2"
+        weather="clear,fair" x="17" y="18" />
+    <vista emote="lookout" end-time="5" map="east_shroud" n="13" start-time="18" version="2"
+        weather="clear,fair" x="22" y="26" />
+    <vista emote="salute" end-time="8" map="uldah_steps_of_thal" n="14" start-time="5" version="2"
+        weather="clear,fair" x="11" y="11" />
+    <vista emote="lookout" end-time="17" map="uldah_steps_of_thal" n="15" start-time="12"
+        version="2" weather="cloudy" x="11" y="11" />
+    <vista emote="lookout" end-time="5" map="western_thanalan" n="16" start-time="18" version="2"
+        weather="clear,fair" x="22" y="22" />
+    <vista emote="lookout" end-time="12" map="central_thanalan" n="17" start-time="8" version="2"
+        weather="fog" x="15" y="22" />
+    <vista emote="comfort" end-time="18" map="eastern_thanalan" n="18" start-time="5" version="2"
+        weather="rain" x="19" y="24" />
+    <vista emote="lookout" end-time="12" map="eastern_thanalan" n="19" start-time="8" version="2"
+        weather="cloudy" x="14" y="18" />
+    <vista emote="pray" end-time="8" map="eastern_thanalan" n="20" start-time="5" version="2"
+        weather="clear,fair" x="21" y="20" />
+    <vista emote="lookout" end-time="17" map="middle_la_noscea" n="21" start-time="12" version="2"
+        weather="clear,fair" x="19" y="13" />
+    <vista emote="lookout" end-time="8" map="middle_la_noscea" n="22" start-time="5" version="2"
+        weather="clear,fair" x="25" y="17" />
+    <vista emote="lookout" end-time="17" map="lower_la_noscea" n="23" start-time="12" version="2"
+        weather="rain" x="31" y="12" />
+    <vista emote="sit" end-time="12" map="eastern_la_noscea" n="24" start-time="8" version="2"
+        weather="clear,fair" x="32" y="23" />
+    <vista emote="lookout" end-time="5" map="eastern_la_noscea" n="25" start-time="18" version="2"
+        weather="rain" x="29" y="33" />
+    <vista emote="pray" end-time="18" map="western_la_noscea" n="26" start-time="17" version="2"
+        weather="clear,fair" x="26" y="26" />
+    <vista emote="lookout" end-time="5" map="western_la_noscea" n="27" start-time="18" version="2"
+        weather="gales" x="17" y="36" />
+    <vista emote="lookout" end-time="12" map="western_la_noscea" n="28" start-time="8" version="2"
+        weather="clear,fair" x="22" y="22" />
+    <vista emote="lookout" end-time="17" map="western_la_noscea" n="29" start-time="12" version="2"
+        weather="clear,fair" x="19" y="23" />
+    <vista emote="lookout" end-time="18" map="upper_la_noscea" n="30" start-time="17" version="2"
+        weather="clear,fair" x="30" y="22" />
+    <vista emote="lookout" end-time="17" map="upper_la_noscea" n="31" start-time="12" version="2"
+        weather="clear,fair" x="12" y="22" />
+    <vista emote="lookout" end-time="5" map="upper_la_noscea" n="32" start-time="18" version="2"
+        weather="thunderstorm" x="29" y="25" />
+    <vista emote="lookout" end-time="5" map="outer_la_noscea" n="33" start-time="18" version="2"
+        weather="clear,fair" x="12" y="15" />
+    <vista emote="lookout" end-time="8" map="outer_la_noscea" n="34" start-time="5" version="2"
+        weather="cloudy" x="17" y="16" />
+    <vista emote="lookout" end-time="17" map="outer_la_noscea" n="35" start-time="12" version="2"
+        weather="clear,fair" x="23" y="11" />
+    <vista emote="sit" end-time="5" map="outer_la_noscea" n="36" start-time="18" version="2"
+        weather="rain" x="15" y="9" />
+    <vista emote="lookout" end-time="12" map="new_gridania" n="37" start-time="8" version="2"
+        weather="clear,fair" x="14" y="14" />
+    <vista emote="lookout" end-time="8" map="old_gridania" n="38" start-time="5" version="2"
+        weather="rain" x="14" y="5" />
+    <vista emote="lookout" end-time="8" map="central_shroud" n="39" start-time="5" version="2"
+        weather="rain" x="23" y="19" />
+    <vista emote="lookout" end-time="5" map="central_shroud" n="40" start-time="18" version="2"
+        weather="clear,fair" x="13" y="23" />
+    <vista emote="lookout" end-time="17" map="central_shroud" n="41" start-time="12" version="2"
+        weather="clear,fair" x="16" y="22" />
+    <vista emote="lookout" end-time="13" map="central_shroud" n="42" start-time="11" version="2"
+        weather="clear,fair" x="26" y="18" />
+    <vista emote="lookout" end-time="5" map="east_shroud" n="43" start-time="18" version="2"
+        weather="thunderstorm" x="20" y="10" />
+    <vista emote="lookout" end-time="12" map="south_shroud" n="44" start-time="8" version="2"
+        weather="thunderstorm" x="17" y="20" />
+    <vista emote="lookout" end-time="12" map="south_shroud" n="45" start-time="8" version="2"
+        weather="clear,fair" x="14" y="33" />
+    <vista emote="lookout" end-time="17" map="south_shroud" n="46" start-time="12" version="2"
+        weather="fog" x="33" y="23" />
+    <vista emote="lookout" end-time="8" map="south_shroud" n="47" start-time="5" version="2"
+        weather="clear,fair" x="25" y="21" />
+    <vista emote="lookout" end-time="17" map="north_shroud" n="48" start-time="12" version="2"
+        weather="clear,fair" x="18" y="19" />
+    <vista emote="lookout" end-time="5" map="north_shroud" n="49" start-time="18" version="2"
+        weather="clear,fair" x="16" y="31" />
+    <vista emote="lookout" end-time="12" map="north_shroud" n="50" start-time="8" version="2"
+        weather="cloudy" x="15" y="27" />
+    <vista emote="lookout" end-time="18" map="western_thanalan" n="51" start-time="17" version="2"
+        weather="clear,fair" x="8" y="5" />
+    <vista emote="point" end-time="17" map="western_thanalan" n="52" start-time="12" version="2"
+        weather="clear,fair" x="12" y="14" />
+    <vista emote="lookout" end-time="5" map="central_thanalan" n="53" start-time="18" version="2"
+        weather="duststorm" x="21" y="17" />
+    <vista emote="sit" end-time="17" map="central_thanalan" n="54" start-time="12" version="2"
+        weather="clear,fair" x="18" y="26" />
+    <vista emote="lookout" end-time="17" map="eastern_thanalan" n="55" start-time="12" version="2"
+        weather="clear,fair" x="30" y="26" />
+    <vista emote="lookout" end-time="12" map="eastern_thanalan" n="56" start-time="8" version="2"
+        weather="clear,fair" x="10" y="16" />
+    <vista emote="pray" end-time="5" map="eastern_thanalan" n="57" start-time="18" version="2"
+        weather="showers" x="25" y="14" />
+    <vista emote="pray" end-time="8" map="southern_thanalan" n="58" start-time="5" version="2"
+        weather="fog" x="12" y="22" />
+    <vista emote="lookout" end-time="8" map="southern_thanalan" n="59" start-time="5" version="2"
+        weather="clear,fair" x="19" y="20" />
+    <vista emote="lookout" end-time="17" map="southern_thanalan" n="60" start-time="12" version="2"
+        weather="heatwave" x="21" y="38" />
+    <vista emote="lookout" end-time="17" map="southern_thanalan" n="61" start-time="12" version="2"
+        weather="clear,fair" x="23" y="11" />
+    <vista emote="psych" end-time="8" map="southern_thanalan" n="62" start-time="5" version="2"
+        weather="heatwave" x="14" y="26" />
+    <vista emote="salute" end-time="8" map="northern_thanalan" n="63" start-time="5" version="2"
+        weather="clear,fair" x="22" y="25" />
+    <vista emote="lookout" end-time="5" map="northern_thanalan" n="64" start-time="18" version="2"
+        weather="clear,fair" x="20" y="29" />
+    <vista emote="lookout" end-time="17" map="northern_thanalan" n="65" start-time="12" version="2"
+        weather="clear,fair" x="20" y="22" />
+    <vista emote="lookout" end-time="12" map="northern_thanalan" n="66" start-time="8" version="2"
+        weather="cloudy" x="20" y="17" />
+    <vista emote="lookout" end-time="5" map="northern_thanalan" n="67" start-time="18" version="2"
+        weather="fog" x="26" y="22" />
+    <vista emote="lookout" end-time="18" map="central_coerthas" n="68" start-time="17" version="2"
+        weather="clear,fair" x="25" y="29" />
+    <vista emote="lookout" end-time="5" map="central_coerthas" n="69" start-time="18" version="2"
+        weather="fog" x="25" y="29" />
+    <vista emote="lookout" end-time="12" map="central_coerthas" n="70" start-time="8" version="2"
+        weather="blizzard" x="11" y="15" />
+    <vista emote="lookout" end-time="8" map="central_coerthas" n="71" start-time="5" version="2"
+        weather="clear,fair" x="12" y="17" />
+    <vista emote="lookout" end-time="18" map="central_coerthas" n="72" start-time="17" version="2"
+        weather="clear,fair" x="7" y="28" />
+    <vista emote="lookout" end-time="5" map="central_coerthas" n="73" start-time="18" version="2"
+        weather="blizzard" x="7" y="31" />
+    <vista emote="lookout" end-time="12" map="central_coerthas" n="74" start-time="8" version="2"
+        weather="clear,fair" x="2" y="21" />
+    <vista emote="lookout" end-time="17" map="central_coerthas" n="75" start-time="12" version="2"
+        weather="clear,fair" x="26" y="17" />
+    <vista emote="lookout" end-time="8" map="central_coerthas" n="76" start-time="5" version="2"
+        weather="clear,fair" x="28" y="10" />
+    <vista emote="lookout" end-time="17" map="mor_dhona" n="77" start-time="12" version="2"
+        weather="gloom" x="9" y="13" />
+    <vista emote="lookout" end-time="5" map="mor_dhona" n="78" start-time="18" version="2"
+        weather="clear,fair" x="27" y="8" />
+    <vista emote="lookout" end-time="17" map="mor_dhona" n="79" start-time="12" version="2"
+        weather="clear,fair" x="18" y="17" />
+    <vista emote="sit" end-time="18" map="mor_dhona" n="80" start-time="17" version="2"
+        weather="clear,fair" x="26" y="11" />
+
+
+    <vista emote="lookout" end-time="24" map="western_coerthas" n="1" start-time="0" version="3" weather="*"
+        x="32" y="36" />
+    <vista emote="lookout" end-time="24" map="western_coerthas" n="2" start-time="0" version="3" weather="*"
+        x="20" y="23" />
+    <vista emote="lookout" end-time="24" map="western_coerthas" n="3" start-time="0" version="3" weather="*"
+        x="10" y="18" />
+    <vista emote="lookout" end-time="24" map="western_coerthas" n="4" start-time="0" version="3" weather="*"
+        x="20" y="6" />
+    <vista emote="lookout" end-time="24" map="western_coerthas" n="5" start-time="0" version="3" weather="*"
+        x="31" y="4" />
+    <vista emote="lookout" end-time="24" map="western_coerthas" n="6" start-time="0" version="3" weather="*"
+        x="36" y="19" />
+    <vista emote="lookout" end-time="24" map="western_coerthas" n="7" start-time="0" version="3" weather="*"
+        x="20" y="36" />
+    <vista emote="lookout" end-time="24" map="dravanian_forelands" n="8" start-time="0" version="3"
+        weather="*" x="27" y="36" />
+    <vista emote="lookout" end-time="24" map="dravanian_forelands" n="9" start-time="0" version="3"
+        weather="*" x="12" y="39" />
+    <vista emote="lookout" end-time="24" map="dravanian_forelands" n="10" start-time="0" version="3"
+        weather="*" x="16" y="23" />
+    <vista emote="lookout" end-time="24" map="dravanian_forelands" n="11" start-time="0" version="3"
+        weather="*" x="29" y="6" />
+    <vista emote="pray" end-time="24" map="dravanian_forelands" n="12" start-time="0" version="3" weather="*"
+        x="8" y="6" />
+    <vista emote="lookout" end-time="24" map="dravanian_forelands" n="13" start-time="0" version="3"
+        weather="*" x="33" y="23" />
+    <vista emote="lookout" end-time="24" map="dravanian_forelands" n="14" start-time="0" version="3"
+        weather="*" x="11" y="13" />
+    <vista emote="lookout" end-time="24" map="churning_mists" n="15" start-time="0" version="3" weather="*"
+        x="29" y="35" />
+    <vista emote="lookout" end-time="24" map="churning_mists" n="16" start-time="0" version="3" weather="*"
+        x="29" y="13" />
+    <vista emote="lookout" end-time="24" map="churning_mists" n="17" start-time="0" version="3" weather="*"
+        x="18" y="6" />
+    <vista emote="lookout" end-time="24" map="churning_mists" n="18" start-time="0" version="3" weather="*"
+        x="7" y="27" />
+    <vista emote="pray" end-time="24" map="churning_mists" n="19" start-time="0" version="3" weather="*"
+        x="17" y="37" />
+    <vista emote="lookout" end-time="24" map="churning_mists" n="20" start-time="0" version="3" weather="*"
+        x="35" y="20" />
+    <vista emote="lookout" end-time="24" map="churning_mists" n="21" start-time="0" version="3" weather="*"
+        x="23" y="18" />
+    <vista emote="lookout" end-time="24" map="sea_of_clouds" n="22" start-time="0" version="3" weather="*"
+        x="15" y="37" />
+    <vista emote="doze" end-time="24" map="sea_of_clouds" n="23" start-time="0" version="3" weather="*"
+        x="37" y="40" />
+    <vista emote="lookout" end-time="24" map="sea_of_clouds" n="24" start-time="0" version="3" weather="*"
+        x="39" y="21" />
+    <vista emote="lookout" end-time="24" map="sea_of_clouds" n="25" start-time="0" version="3" weather="*"
+        x="13" y="8" />
+    <vista emote="lookout" end-time="24" map="sea_of_clouds" n="26" start-time="0" version="3" weather="*"
+        x="18" y="27" />
+    <vista emote="lookout" end-time="24" map="sea_of_clouds" n="27" start-time="0" version="3" weather="*"
+        x="25" y="23" />
+    <vista emote="lookout" end-time="24" map="sea_of_clouds" n="28" start-time="0" version="3" weather="*"
+        x="38" y="11" />
+    <vista emote="lookout" end-time="24" map="dravanian_hinterlands" n="29" start-time="0" version="3"
+        weather="*" x="40" y="21" />
+    <vista emote="lookout" end-time="24" map="dravanian_hinterlands" n="30" start-time="0" version="3"
+        weather="*" x="17" y="23" />
+    <vista emote="lookout" end-time="24" map="dravanian_hinterlands" n="31" start-time="0" version="3"
+        weather="*" x="22" y="27" />
+    <vista emote="lookout" end-time="24" map="dravanian_hinterlands" n="32" start-time="0" version="3"
+        weather="*" x="10" y="35" />
+    <vista emote="lookout" end-time="24" map="dravanian_hinterlands" n="33" start-time="0" version="3"
+        weather="*" x="28" y="37" />
+    <vista emote="lookout" end-time="24" map="dravanian_hinterlands" n="34" start-time="0" version="3"
+        weather="*" x="32" y="11" />
+    <vista emote="lookout" end-time="24" map="dravanian_hinterlands" n="35" start-time="0" version="3"
+        weather="*" x="13" y="21" />
+    <vista map="azys_lla" n="36" x="39" y="17" emote="lookout" start-time="0" end-time="24"
+    version="3" weather="*" />
+    <vista map="azys_lla" n="37" x="33" y="35" emote="lookout" start-time="0" end-time="24"
+    version="3" weather="*" />
+    <vista map="azys_lla" n="38" x="6" y="30" emote="lookout" start-time="0" end-time="24" version="3"
+    weather="*" />
+    <vista map="azys_lla" n="39" x="10" y="35" emote="lookout" start-time="0" end-time="24"
+    version="3" weather="*" />
+    <vista map="azys_lla" n="40" x="6" y="9" emote="lookout" start-time="0" end-time="24" version="3"
+    weather="*" />
+    <vista map="azys_lla" n="41" x="9" y="21" emote="lookout" start-time="0" end-time="24" version="3"
+    weather="*" />
+    <vista map="azys_lla" n="42" x="30" y="11" emote="lookout" start-time="0" end-time="24"
+    version="3" weather="*" />
+
 </vistas>
 

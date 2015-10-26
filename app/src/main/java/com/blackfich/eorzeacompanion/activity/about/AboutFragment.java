@@ -19,6 +19,8 @@ import com.blackfich.eorzeacompanion.util.HtmlTagHandler;
  */
 public class AboutFragment extends EorzeanFragment {
 
+    public static final String NAME = "about";
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -37,6 +39,11 @@ public class AboutFragment extends EorzeanFragment {
     @Override
     public MainActivity getMainActivity() {
         return (MainActivity) getActivity();
+    }
+
+    @Override
+    public String getName() {
+        return NAME;
     }
 }
 

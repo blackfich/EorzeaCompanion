@@ -56,7 +56,7 @@ public class GatheringNodeAdapter extends BaseAdapter {
         final GatheringNode gatheringNode = getItem(position);
 
         ImageView imgIconType = (ImageView) view.findViewById(R.id.imgGatheringNodeType);
-        ImageView imgShowNode = (ImageView) view.findViewById(R.id.imgShowSpots);
+        //ImageView imgShowNode = (ImageView) view.findViewById(R.id.imgShowSpots);
 
         view.setBackgroundColor(fragment.getData(position).getTimeColor());
 
@@ -79,12 +79,15 @@ public class GatheringNodeAdapter extends BaseAdapter {
         AdapterUtil.adaptView(activity, view, (Mapable) gatheringNode);
         AdapterUtil.adaptView(activity, view, (Timable) gatheringNode);
 
+        /* removed image
         imgShowNode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 fragment.showGatheringNode(gatheringNode);
             }
         });
+        */
+
         return view;
     }
 

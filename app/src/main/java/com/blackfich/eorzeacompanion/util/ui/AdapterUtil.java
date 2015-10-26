@@ -99,7 +99,7 @@ public class AdapterUtil {
     }
 
     public static int getTimeColor(Timable timable, int time) {
-        int color = Color.TRANSPARENT;
+        int color = Color.BLACK;
         if (Filters.isInTime(time, timable) ) {
             color = Config.getColorOpen();
         } else if ( Filters.isNextTime(time, timable) ) {

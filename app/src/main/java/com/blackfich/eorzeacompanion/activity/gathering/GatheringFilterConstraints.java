@@ -1,5 +1,9 @@
 package com.blackfich.eorzeacompanion.activity.gathering;
 
+import com.blackfich.eorzeacompanion.MainActivity;
+import com.blackfich.eorzeacompanion.util.EorzeaUtils;
+import com.blackfich.eorzeacompanion.util.JSONUtil;
+import com.blackfich.eorzeacompanion.util.bean.JSONable;
 import com.blackfich.eorzeacompanion.util.bean.Timable;
 import com.blackfich.eorzeacompanion.util.bean.Versionable;
 import com.blackfich.eorzeacompanion.util.filter.Filters;
@@ -8,10 +12,12 @@ import com.blackfich.eorzeacompanion.util.filter.constraints.FavoriteConstrainab
 import com.blackfich.eorzeacompanion.util.filter.constraints.TimeConstrainable;
 import com.blackfich.eorzeacompanion.util.filter.constraints.VersionConstrainable;
 
+import org.json.JSONObject;
+
 /**
  * Created by Marc Fichant on 16/10/2015.
  */
-public class GatheringFilterConstraints implements Constrainable<GatheringNode>, TimeConstrainable, VersionConstrainable, FavoriteConstrainable {
+public class GatheringFilterConstraints implements Constrainable<GatheringNode>, TimeConstrainable, VersionConstrainable, FavoriteConstrainable, JSONable {
 
     private boolean showBotanist = true;
     private boolean showMiner = true;
@@ -26,6 +32,12 @@ public class GatheringFilterConstraints implements Constrainable<GatheringNode>,
     private boolean showEphemeralNodes = true;
     private boolean showFolkloreNodes = true;
 
+    public GatheringFilterConstraints() {
+
+    }
+    public GatheringFilterConstraints(String constraints) {
+        JSONUtil.fromJSON(this, constraints);
+    }
 
     public boolean isFiltered(GatheringNode node) {
         boolean filtered = false;
@@ -184,5 +196,35 @@ public class GatheringFilterConstraints implements Constrainable<GatheringNode>,
     public boolean toggleShowFolkloreNodes() {
         showFolkloreNodes = !showFolkloreNodes;
         return showFolkloreNodes;
+    }
+
+    public void fromJSON(JSONObject json) {
+        showBotanist = JSONUtil.getBoolean(json, "showBotanist", true);
+        showMiner = JSONUtil.getBoolean(json, "showMiner", true);
+        showFisher = JSONUtil.getBoolean(json, "showFisher", false);
+        showFavorite = JSONUtil.getBoolean(json, "showFavorite", false);
+        showARR = JSONUtil.getBoolean(json, "showARR", false);
+        showHW = JSONUtil.getBoolean(json, "showHW", false);
+        timeFiltering = JSONUtil.getInt(json, "timeFiltering", TimeConstrainable.FILTER_NONE);
+        showUnspoiledNodes = JSONUtil.getBoolean(json, "showUnspoiledNodes", false);
+        showEphemeralNodes = JSONUtil.getBoolean(json, "showEphemeralNodes", false);
+        showFolkloreNodes = JSONUtil.getBoolean(json, "showFolkloreNodes", false);
+    }
+
+    public JSONObject toJSON() {
+        JSONObject jsonObject = new JSONObject();
+
+        JSONUtil.put(jsonObject, "showBotanist", showBotanist);
+        JSONUtil.put(jsonObject, "showMiner", showMiner);
+        JSONUtil.put(jsonObject, "showFisher", showFisher);
+        JSONUtil.put(jsonObject, "showFavorite", showFavorite);
+        JSONUtil.put(jsonObject, "showARR", showARR);
+        JSONUtil.put(jsonObject, "showHW", showHW);
+        JSONUtil.put(jsonObject, "timeFiltering", timeFiltering);
+        JSONUtil.put(jsonObject, "showUnspoiledNodes", showUnspoiledNodes);
+        JSONUtil.put(jsonObject, "showEphemeralNodes", showEphemeralNodes);
+        JSONUtil.put(jsonObject, "showFolkloreNodes", showFolkloreNodes);
+
+        return jsonObject;
     }
 }

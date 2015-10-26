@@ -36,6 +36,8 @@ import java.util.List;
  */
 public class VistasFragment extends EorzeanFragment {
 
+    public static final String NAME = "vistas";
+
     private ListView lstVistas;
 
 
@@ -200,6 +202,8 @@ public class VistasFragment extends EorzeanFragment {
         imgSortTime.setOnClickListener(imgSortTimeClickListener);
         imgFilterTime.setOnClickListener(imgFilterTimeOnClickListener);
 
+        updateEorzeaTime();
+
         return view;
     }
 
@@ -210,5 +214,11 @@ public class VistasFragment extends EorzeanFragment {
             Log.d(null, "" + EorzeaUtils.getEorzeaTime() + " ->  vistas list is damaged");
             applyFilter();
         }
+    }
+
+
+    @Override
+    public String getName() {
+        return NAME;
     }
 }

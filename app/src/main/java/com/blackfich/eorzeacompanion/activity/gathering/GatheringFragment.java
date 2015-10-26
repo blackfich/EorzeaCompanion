@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -18,6 +19,7 @@ import android.widget.TextView;
 import com.blackfich.eorzeacompanion.MainActivity;
 import com.blackfich.eorzeacompanion.R;
 import com.blackfich.eorzeacompanion.activity.vistas.Vista;
+import com.blackfich.eorzeacompanion.util.JSONUtil;
 import com.blackfich.eorzeacompanion.util.ui.EorzeanFragment;
 import com.blackfich.eorzeacompanion.util.EorzeaUtils;
 import com.blackfich.eorzeacompanion.util.filter.FilteredResult;
@@ -32,6 +34,8 @@ import java.util.List;
  */
 public class GatheringFragment extends EorzeanFragment {
 
+    public static final String NAME = "gathering";
+
     private ListView lstGatheringNodes;
 
     private final GatheringNodeAdapter gatheringNodeAdapter = new GatheringNodeAdapter(this);
@@ -41,6 +45,8 @@ public class GatheringFragment extends EorzeanFragment {
     private final GatheringFilterConstraints gatheringFilterConstraints = new GatheringFilterConstraints();
 
     private final List<FilteredResult> data = new ArrayList<FilteredResult>();
+
+    private Button btnFilters;
 
     private ImageView imgFilterBotanist;
 
@@ -61,7 +67,6 @@ public class GatheringFragment extends EorzeanFragment {
     private ImageView imgFilterTime;
 
     public GatheringFragment() {
-        applyFilter();
     }
 
     @Override
@@ -94,8 +99,11 @@ public class GatheringFragment extends EorzeanFragment {
         return gatheringNodeAdapter;
     }
 
-    public void applyFilter() {
+    public void applyFilter(boolean persistFilter) {
         Log.i(null, "applyFilter");
+        if ( persistFilter ) {
+            getMainActivity().putPreference("gatheringFilterConstraints", gatheringFilterConstraints);
+        }
         gatheringNodeFilter.filter("");
         if ( lstGatheringNodes != null ) {
             lstGatheringNodes.invalidate();
@@ -113,84 +121,68 @@ public class GatheringFragment extends EorzeanFragment {
     private View.OnClickListener imgFilterBotanistOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            boolean show = gatheringFilterConstraints.toggleShowBotanist();
-            imgFilterBotanist.setImageResource(show ? R.drawable.gathering_filter_botanist_on : R.drawable.gathering_filter_botanist_off);
-            applyFilter();
+            gatheringFilterConstraints.toggleShowBotanist();
+            updateFilterButtons();
+            applyFilter(true);
         }
     };
     private View.OnClickListener imgFilterMinerOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            boolean show = gatheringFilterConstraints.toggleShowMiner();
-            imgFilterMiner.setImageResource(show ? R.drawable.gathering_filter_miner_on : R.drawable.gathering_filter_miner_off);
-            applyFilter();
+            gatheringFilterConstraints.toggleShowMiner();
+            updateFilterButtons();
+            applyFilter(true);
         }
     };
     private View.OnClickListener imgFilterFisherOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            boolean show = gatheringFilterConstraints.toggleShowFisher();
-            imgFilterFisher.setImageResource(show ? R.drawable.gathering_filter_fisher_on : R.drawable.gathering_filter_fisher_off);
-            applyFilter();
+            gatheringFilterConstraints.toggleShowFisher();
+            updateFilterButtons();
+            applyFilter(true);
         }
     };
     private View.OnClickListener imgFilterARROnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            boolean show = gatheringFilterConstraints.toggleShowARR();
-            imgFilterARR.setImageResource(show ? R.drawable.gathering_filter_arr_on : R.drawable.gathering_filter_arr_off);
-            applyFilter();
+            gatheringFilterConstraints.toggleShowARR();
+            updateFilterButtons();
+            applyFilter(true);
         }
     };
 
     private View.OnClickListener imgFilterHWOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            boolean show = gatheringFilterConstraints.toggleShowHW();
-            imgFilterHW.setImageResource(show ? R.drawable.gathering_filter_hw_on : R.drawable.gathering_filter_hw_off);
-            if (!show) {
-                // disable Ephemeral & Folklore nodes is filtering out HW nodes
-                imgFilterEphemeral.setClickable(false);
-                imgFilterEphemeral.setImageResource(R.drawable.gathering_filter_ephemeral_off);
-                imgFilterFolklore.setClickable(false);
-                imgFilterFolklore.setImageResource(R.drawable.gathering_filter_folklore_off);
-            } else {
-                // enable Ephemeral & Folklore nodes is filtering out HW nodes
-                // and restore their state to what it was
-                boolean showEphemeral = gatheringFilterConstraints.isShowEphemeralNodes();
-                imgFilterEphemeral.setClickable(true);
-                imgFilterEphemeral.setImageResource(showEphemeral ? R.drawable.gathering_filter_ephemeral_on : R.drawable.gathering_filter_ephemeral_off);
-                boolean showFolklore = gatheringFilterConstraints.isShowFolkloreNodes();
-                imgFilterFolklore.setClickable(true);
-                imgFilterFolklore.setImageResource(showFolklore ? R.drawable.gathering_filter_folklore_on : R.drawable.gathering_filter_folklore_off);
-            }
-            applyFilter();
+            gatheringFilterConstraints.toggleShowHW();
+            updateFilterButtons();
+            applyFilter(true);
         }
     };
     private View.OnClickListener imgFilterUnspoiledOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            boolean show = gatheringFilterConstraints.toggleShowUnspoiledNodes();
-            imgFilterUnspoiled.setImageResource(show ? R.drawable.gathering_filter_unspoiled_on : R.drawable.gathering_filter_unspoiled_off);
-            applyFilter();
+            gatheringFilterConstraints.toggleShowUnspoiledNodes();
+            updateFilterButtons();
+            applyFilter(true);
         }
     };
 
     private View.OnClickListener imgFilterEphemeralOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            boolean show = gatheringFilterConstraints.toggleShowEphemeralNodes();
-            imgFilterEphemeral.setImageResource(show ? R.drawable.gathering_filter_ephemeral_on : R.drawable.gathering_filter_ephemeral_off);
-            applyFilter();
+            gatheringFilterConstraints.toggleShowEphemeralNodes();
+            updateFilterButtons();
+            applyFilter(true);
         }
     };
 
     private View.OnClickListener imgFilterFolkloreOnClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            boolean show = gatheringFilterConstraints.toggleShowFolkloreNodes();
-            imgFilterFolklore.setImageResource(show ? R.drawable.gathering_filter_folklore_on : R.drawable.gathering_filter_folklore_off);
-            applyFilter();
+            gatheringFilterConstraints.toggleShowFolkloreNodes();
+            updateFilterButtons();
+            applyFilter(true);
         }
     };
 
@@ -199,16 +191,10 @@ public class GatheringFragment extends EorzeanFragment {
         public void onClick(View v) {
             int timeFilter = gatheringFilterConstraints.getTimeFiltering();
             timeFilter = (timeFilter + 1) % TimeConstrainable.FILTER_MOD;
-
             gatheringFilterConstraints.setTimeFiltering(timeFilter);
-            if (timeFilter == TimeConstrainable.FILTER_NONE) {
-                imgFilterTime.setImageResource(R.drawable.filter_time_off);
-            } else if (timeFilter == TimeConstrainable.FILTER_CURRENT) {
-                imgFilterTime.setImageResource(R.drawable.filter_time_on);
-            } else if (timeFilter == TimeConstrainable.FILTER_CURRENT_PLUS_1) {
-                imgFilterTime.setImageResource(R.drawable.filter_time_next_on);
-            }
-            applyFilter();
+
+            updateFilterButtons();
+            applyFilter(true);
         }
     };
 
@@ -280,8 +266,21 @@ public class GatheringFragment extends EorzeanFragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.gathering_fragment, container, false);
         MainActivity activity = (MainActivity) getActivity();
+        JSONUtil.fromJSON(gatheringFilterConstraints, activity.getPreference("gatheringFilterConstraints", "{}"));
+
+        btnFilters = (Button) view.findViewById(R.id.btnFilters);
         lstGatheringNodes = (ListView) view.findViewById(R.id.lstGatheringNodes);
         lstGatheringNodes.setAdapter(gatheringNodeAdapter);
+        lstGatheringNodes.setOnItemClickListener(lstOnItemClickListener);
+
+        btnFilters.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showFilters();
+            }
+        });
+
+        /*
         imgFilterBotanist = (ImageView) view.findViewById(R.id.imgFilterBotanist);
         imgFilterMiner = (ImageView) view.findViewById(R.id.imgFilterMiner);
         imgFilterFisher = (ImageView) view.findViewById(R.id.imgFilterFisher);
@@ -303,16 +302,104 @@ public class GatheringFragment extends EorzeanFragment {
         imgFilterFolklore.setOnClickListener(imgFilterFolkloreOnClickListener);
         imgFilterTime.setOnClickListener(imgFilterTimeOnClickListener);
 
+        updateFilterButtons();
+        */
+
+        updateEorzeaTime();
+
+        applyFilter(false);
+
         return view;
     }
+
+    public void updateFilterButtons() {
+        imgFilterBotanist.setImageResource(gatheringFilterConstraints.isShowBotanist() ? R.drawable.gathering_filter_botanist_on : R.drawable.gathering_filter_botanist_off);
+        imgFilterMiner.setImageResource(gatheringFilterConstraints.isShowMiner() ? R.drawable.gathering_filter_miner_on : R.drawable.gathering_filter_miner_off);
+        imgFilterFisher.setImageResource(gatheringFilterConstraints.isShowFisher() ? R.drawable.gathering_filter_fisher_on : R.drawable.gathering_filter_fisher_off);
+        imgFilterARR.setImageResource(gatheringFilterConstraints.isShowARR() ? R.drawable.gathering_filter_arr_on : R.drawable.gathering_filter_arr_off);
+        imgFilterHW.setImageResource(gatheringFilterConstraints.isShowHW() ? R.drawable.gathering_filter_hw_on : R.drawable.gathering_filter_hw_off);
+
+        imgFilterUnspoiled.setImageResource(gatheringFilterConstraints.isShowUnspoiledNodes() ? R.drawable.gathering_filter_unspoiled_on : R.drawable.gathering_filter_unspoiled_off);
+        if ( gatheringFilterConstraints.isShowHW() ) {
+            imgFilterEphemeral.setEnabled(true);
+            imgFilterFolklore.setEnabled(true);
+            imgFilterEphemeral.setImageResource(gatheringFilterConstraints.isShowEphemeralNodes() ? R.drawable.gathering_filter_ephemeral_on : R.drawable.gathering_filter_ephemeral_off);
+            imgFilterFolklore.setImageResource(gatheringFilterConstraints.isShowFolkloreNodes() ? R.drawable.gathering_filter_folklore_on : R.drawable.gathering_filter_folklore_off);
+        } else {
+            imgFilterEphemeral.setEnabled(false);
+            imgFilterFolklore.setEnabled(false);
+            imgFilterEphemeral.setImageResource(R.drawable.gathering_filter_ephemeral_off);
+            imgFilterFolklore.setImageResource(R.drawable.gathering_filter_folklore_off);
+        }
+
+        if (gatheringFilterConstraints.getTimeFiltering() == TimeConstrainable.FILTER_NONE) {
+            imgFilterTime.setImageResource(R.drawable.filter_time_off);
+        } else if (gatheringFilterConstraints.getTimeFiltering() == TimeConstrainable.FILTER_CURRENT) {
+            imgFilterTime.setImageResource(R.drawable.filter_time_on);
+        } else if (gatheringFilterConstraints.getTimeFiltering() == TimeConstrainable.FILTER_CURRENT_PLUS_1) {
+            imgFilterTime.setImageResource(R.drawable.filter_time_next_on);
+        }
+
+    }
+
+    public void showFilters() {
+        View view = getMainActivity().showPopup(R.layout.gathering_filters);
+
+        imgFilterBotanist = (ImageView) view.findViewById(R.id.imgFilterBotanist);
+        imgFilterMiner = (ImageView) view.findViewById(R.id.imgFilterMiner);
+        imgFilterFisher = (ImageView) view.findViewById(R.id.imgFilterFisher);
+        imgFilterARR = (ImageView) view.findViewById(R.id.imgFilterARR);
+        imgFilterHW = (ImageView) view.findViewById(R.id.imgFilterHW);
+        imgFilterUnspoiled = (ImageView) view.findViewById(R.id.imgFilterUnspoiled);
+        imgFilterEphemeral = (ImageView) view.findViewById(R.id.imgFilterEphemeral);
+        imgFilterFolklore = (ImageView) view.findViewById(R.id.imgFilterFolklore);
+        imgFilterTime = (ImageView) view.findViewById(R.id.imgFilterTime);
+
+        imgFilterBotanist.setOnClickListener(imgFilterBotanistOnClickListener);
+        imgFilterBotanist.setOnLongClickListener(hintOnLongClickListener);
+        imgFilterMiner.setOnClickListener(imgFilterMinerOnClickListener);
+        imgFilterMiner.setOnLongClickListener(hintOnLongClickListener);
+        imgFilterFisher.setOnClickListener(imgFilterFisherOnClickListener);
+        imgFilterFisher.setOnLongClickListener(hintOnLongClickListener);
+        imgFilterARR.setOnClickListener(imgFilterARROnClickListener);
+        imgFilterARR.setOnLongClickListener(hintOnLongClickListener);
+        imgFilterHW.setOnClickListener(imgFilterHWOnClickListener);
+        imgFilterHW.setOnLongClickListener(hintOnLongClickListener);
+        imgFilterUnspoiled.setOnClickListener(imgFilterUnspoiledOnClickListener);
+        imgFilterUnspoiled.setOnLongClickListener(hintOnLongClickListener);
+        imgFilterEphemeral.setOnClickListener(imgFilterEphemeralOnClickListener);
+        imgFilterEphemeral.setOnLongClickListener(hintOnLongClickListener);
+        imgFilterFolklore.setOnClickListener(imgFilterFolkloreOnClickListener);
+        imgFilterFolklore.setOnLongClickListener(hintOnLongClickListener);
+
+        imgFilterTime.setOnClickListener(imgFilterTimeOnClickListener);
+        imgFilterTime.setOnLongClickListener(hintOnLongClickListener);
+
+        updateFilterButtons();
+
+    }
+
+    private View.OnLongClickListener hintOnLongClickListener = new View.OnLongClickListener() {
+        @Override
+        public boolean onLongClick(View v) {
+            String resname = v.getResources().getResourceName(v.getId());
+            resname = resname.substring(resname.lastIndexOf('/')+1);
+            return getMainActivity().showHint(resname);
+        }
+    };
 
     @Override
     public void updateEorzeaTime() {
         super.updateEorzeaTime();
         if (lstGatheringNodes != null && AdapterUtil.isListDamaged(data, gatheringNodeFilter)) {
             Log.d(null, "" + EorzeaUtils.getEorzeaTime() + " ->  gathering list is damaged");
-            applyFilter();
+            applyFilter(false);
         }
+    }
+
+    @Override
+    public String getName() {
+        return NAME;
     }
 
     @Override

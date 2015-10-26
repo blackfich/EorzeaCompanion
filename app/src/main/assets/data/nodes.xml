@@ -147,36 +147,6 @@
         <item id="old_world_fig" level="55" slot="2" stars="0" />
     </unspoiled-node>
 
-    <unspoiled-node alternate="false" map="churning_mists" time="17" type="botanist" version="3"
-        x="17" y="36">
-        <item id="seventh_heaven" level="60" slot="1" stars="1" />
-    </unspoiled-node>
-
-    <unspoiled-node alternate="false" map="sea_of_clouds" time="17" type="botanist" version="3"
-        x="24" y="6">
-        <item id="honeydew_almonds" level="60" slot="2" stars="1" />
-    </unspoiled-node>
-
-    <unspoiled-node alternate="false" map="western_coerthas" time="17" type="botanist" version="3"
-        x="23" y="21">
-        <item id="vanilla_beans" level="60" slot="3" stars="1" />
-    </unspoiled-node>
-
-    <unspoiled-node alternate="false" map="dravanian_hinterlands" time="19" type="botanist"
-        version="3" x="39" y="26">
-        <item id="snurbleberry" level="60" slot="2" stars="1" />
-    </unspoiled-node>
-
-    <unspoiled-node alternate="false" map="western_coerthas" time="19" type="botanist" version="3"
-        x="25" y="32">
-        <item id="dravanian_paprika" level="60" slot="3" stars="1" />
-    </unspoiled-node>
-
-    <unspoiled-node alternate="false" map="azys_lla" time="19" type="botanist" version="3" x="22"
-        y="10">
-        <item id="wattle_bark" level="60" slot="5" stars="1" />
-    </unspoiled-node>
-
     <unspoiled-node alternate="false" map="western_coerthas" time="9" twice-per-day="true" type="botanist"
         version="3" x="8" y="9">
         <item id="chysahl_greens" level="60" slot="6" stars="0" />
@@ -387,36 +357,6 @@
         x="34" y="30">
         <item collection="blue" id="cuprite" level="60" slot="2" />
         <item collection="blue" id="light_kidney_ore" level="60" slot="3" />
-    </unspoiled-node>
-
-    <unspoiled-node map="western_coerthas" min-gathering="470" time="5" type="miner" version="3" x="37"
-        y="16">
-        <item collection="red" id="astral_moraine" level="60" slot="4" stars="1" />
-    </unspoiled-node>
-
-    <unspoiled-node map="churning_mists" min-gathering="470" time="5" type="miner" version="3" x="11"
-        y="38">
-        <item collection="red" id="aurum_regis_ore" level="60" slot="6" stars="1" />
-    </unspoiled-node>
-
-    <unspoiled-node map="western_coerthas" min-gathering="470" time="5" type="miner" version="3" x="35"
-        y="39">
-        <item collection="red" id="sun_mica" level="60" slot="2" stars="1" />
-    </unspoiled-node>
-
-    <unspoiled-node map="dravanian_hinterlands" min-gathering="600" time="7" type="miner" version="3" x="11"
-        y="16">
-        <item id="blue_quartz" level="60" slot="7" stars="1" />
-    </unspoiled-node>
-
-    <unspoiled-node map="azys_lla" min-gathering="600" time="7" type="miner" version="3" x="35"
-        y="16">
-        <item id="red_alumen" level="60" slot="2" stars="1" />
-    </unspoiled-node>
-
-    <unspoiled-node map="western_coerthas" min-gathering="600" time="7" type="miner" version="3" x="11"
-        y="21">
-        <item id="violet_quartz" level="60" slot="6" stars="1" />
     </unspoiled-node>
 
     <unspoiled-node map="dravanian_forelands" min-gathering="300" time="10" twice-per-day="true" type="miner" version="3"

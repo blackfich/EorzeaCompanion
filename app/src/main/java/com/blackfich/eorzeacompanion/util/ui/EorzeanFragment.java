@@ -17,6 +17,8 @@ public abstract class EorzeanFragment extends Fragment {
 
     public abstract MainActivity getMainActivity();
 
+    public abstract String getName();
+
     public String getString(String name) {
         return getMainActivity().getString(name);
     }
