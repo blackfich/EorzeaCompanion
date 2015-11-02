@@ -1,566 +1,232 @@
-<triple-triad>
-    <cards>
-        <card name="dodo" stars="1" stats="4234" version="2">
-            <providers>
-                <quest name="triple_triad_trial" />
-            </providers>
-        </card>
+<cards>
+    <card id="001" name="dodo" stars="1" stats="4234" version="2">
+        <providers>
+            <quest name="triple_triad_trial" />
+        </providers>
+    </card>
 
-        <card name="tomberry" stars="1" stats="2272">
-            <providers>
-                <dungeon name="wanderer_palace" />
-                <dungeon name="wanderer_palace_hard" />
-            </providers>
-        </card>
+    <card id="002" name="tomberry" stars="1" stats="2272">
+        <providers>
+            <dungeon name="wanderer_palace" />
+            <dungeon name="wanderer_palace_hard" />
+        </providers>
+    </card>
 
-        <card name="sabotender" stars="1" stats="4333" version="2">
-            <providers>
-                <quest name="triple_triad_trial" />
-            </providers>
-        </card>
+    <card id="003" name="sabotender" stars="1" stats="4333" version="2">
+        <providers>
+            <quest name="triple_triad_trial" />
+        </providers>
+    </card>
 
-        <card name="spriggan" stars="1" stats="2344" version="2">
-            <providers>
-                <booster name="bronze"/>
-                <npc name="triple_triad_master"/>
-            </providers>
-        </card>
+    <card id="004" name="spriggan" stars="1" stats="2344" version="2">
+        <providers>
+            <booster name="bronze"/>
+            <npc name="triple_triad_master"/>
+        </providers>
+    </card>
 
-        <card name="pudding" stars="1" stats="2435" version="2">
-            <providers>
-                <booster name="bronze"/>
-                <npc name="roger"/>
-            </providers>
-        </card>
+    <card id="005" name="pudding" stars="1" stats="2435" version="2">
+        <providers>
+            <booster name="bronze"/>
+            <npc name="roger"/>
+        </providers>
+    </card>
 
-        <card name="bomb" stars="1" stats="3433" version="2">
-            <providers>
-                <quest name="triple_triad_trial" />
-            </providers>
-        </card>
+    <card id="006" name="bomb" stars="1" stats="3433" version="2">
+        <providers>
+            <quest name="triple_triad_trial" />
+        </providers>
+    </card>
 
-        <card name="mandragora" stars="1" stats="4253" version="2">
-            <providers>
-                <quest name="triple_triad_trial" />
-            </providers>
-        </card>
+    <card id="007" name="mandragora" stars="1" stats="4253" version="2">
+        <providers>
+            <quest name="triple_triad_trial" />
+        </providers>
+    </card>
 
-        <card name="coblyn" stars="1" stats="2435" version="2">
-            <providers>
-                <booster name="bronze"/>
-                <npc name="maisenta"/>
-                <npc name="wymond"/>
-            </providers>
-        </card>
+    <card id="008" name="coblyn" stars="1" stats="2435" version="2">
+        <providers>
+            <booster name="bronze"/>
+            <npc name="maisenta"/>
+            <npc name="wymond"/>
+        </providers>
+    </card>
 
-        <card name="morbol" stars="1" stats="5252" version="2">
-            <providers>
-                <dungeon name="aurum_vale"/>
-                <npc name="roger"/>
-            </providers>
-        </card>
+    <card id="009" name="morbol" stars="1" stats="5252" version="2">
+        <providers>
+            <dungeon name="aurum_vale"/>
+            <npc name="roger"/>
+        </providers>
+    </card>
 
-        <card name="coeurl" stars="1" stats="2525" version="2">
-            <providers>
-                <quest name="triple_triad_trial" />
-            </providers>
-        </card>
+    <card id="010" name="coeurl" stars="1" stats="2525" version="2">
+        <providers>
+            <quest name="triple_triad_trial" />
+        </providers>
+    </card>
 
-        <card name="ahriman" stars="1" stats="5522" version="2">
-            <providers>
-                <dungeon name="dzemael_darkhold"/>
-            </providers>
-        </card>
+    <card id="011" name="ahriman" stars="1" stats="5522" version="2">
+        <providers>
+            <dungeon name="dzemael_darkhold"/>
+        </providers>
+    </card>
 
-        <card name="goobbue" stars="1" stats="2552" version="2">
-            <providers>
-                <booster name="bronze"/>
-                <npc name="mother_miounne"/>
-                <npc name="aurifort_of_the_three_clubs"/>
-                <npc name="maisenta"/>
-                <npc name="momodi_modi"/>
-            </providers>
-        </card>
+    <card id="012" name="goobbue" stars="1" stats="2552" version="2">
+        <providers>
+            <booster name="bronze"/>
+            <npc name="mother_miounne"/>
+            <npc name="aurifort_of_the_three_clubs"/>
+            <npc name="maisenta"/>
+            <npc name="momodi_modi"/>
+        </providers>
+    </card>
 
-        <card name="chocobo" stars="1" stats="3721" version="2">
-            <providers>
-                <buy price="600"/>
-                <npc name="guhtwint_of_the_three_diamonds"/>
-            </providers>
-        </card>
+    <card id="013" name="chocobo" stars="1" stats="3721" version="2">
+        <providers>
+            <buy price="600"/>
+            <npc name="guhtwint_of_the_three_diamonds"/>
+        </providers>
+    </card>
 
-        <card name="amaljaa" stars="1" stats="1471" family="beast" version="2">
-            <providers>
-                <booster name="silver"/>
-                <npc name="memeroon"/>
-            </providers>
-        </card>
+    <card id="014" name="amaljaa" stars="1" stats="1471" family="beast" version="2">
+        <providers>
+            <booster name="silver"/>
+            <npc name="memeroon"/>
+        </providers>
+    </card>
 
-        <card name="ixal" stars="1" stats="6134" family="beast" version="2">
-            <providers>
-                <booster name="silver"/>
-                <npc name="jonas_of_the_three_spades"/>
-                <npc name="joellaut"/>
-            </providers>
-        </card>
+    <card id="015" name="ixal" stars="1" stats="6134" family="beast" version="2">
+        <providers>
+            <booster name="silver"/>
+            <npc name="jonas_of_the_three_spades"/>
+            <npc name="joellaut"/>
+        </providers>
+    </card>
 
-        <card name="sylph" stars="1" stats="2454" family="beast" version="2">
-            <providers>
-                <booster name="silver"/>
-                <npc name="maisenta"/>
-            </providers>
-        </card>
+    <card id="016" name="sylph" stars="1" stats="2454" family="beast" version="2">
+        <providers>
+            <booster name="silver"/>
+            <npc name="maisenta"/>
+        </providers>
+    </card>
 
-        <card name="kobold" stars="1" stats="2246" family="beast" version="2">
-            <providers>
-                <booster name="silver"/>
-            </providers>
-        </card>
+    <card id="017" name="kobold" stars="1" stats="2246" family="beast" version="2">
+        <providers>
+            <booster name="silver"/>
+        </providers>
+    </card>
 
-        <card name="sahagin" stars="1" stats="4533" family="beast" version="2">
-            <providers>
-                <dungeon name="sastasha"/>
-                <dungeon name="sastasha_hard"/>
-            </providers>
-        </card>
+    <card id="018" name="sahagin" stars="1" stats="4533" family="beast" version="2">
+        <providers>
+            <dungeon name="sastasha"/>
+            <dungeon name="sastasha_hard"/>
+        </providers>
+    </card>
 
-        <card name="tataru_taru" stars="1" stats="7232" family="scion" version="2">
-            <providers>
-                <booster name="silver"/>
-                <npc name="tataru_taru"/>
-                <npc name="tataru_taru_3"/>
-            </providers>
-        </card>
+    <card id="019" name="tataru_taru" stars="1" stats="7232" family="scion" version="2">
+        <providers>
+            <booster name="silver"/>
+            <npc name="tataru_taru"/>
+            <npc name="tataru_taru_3"/>
+        </providers>
+    </card>
 
-        <card name="moogle" stars="1" stats="2137" version="2">
-            <providers>
-                <buy price="840"/>
-                <npc name="jonas_of_the_three_spades"/>
-                <npc name="trachtoum"/>
-            </providers>
-        </card>
+    <card id="020" name="moogle" stars="1" stats="2137" version="2">
+        <providers>
+            <buy price="840"/>
+            <npc name="jonas_of_the_three_spades"/>
+            <npc name="trachtoum"/>
+        </providers>
+    </card>
 
-        <card name="siren" stars="2" stats="3672" version="2">
-            <providers>
-                <dungeon name="pharos_sirius"/>
-            </providers>
-        </card>
+    <card id="021" name="siren" stars="2" stats="3672" version="2">
+        <providers>
+            <dungeon name="pharos_sirius"/>
+        </providers>
+    </card>
 
-        <card name="ultros_typhon" stars="2" stats="2367" version="2">
-            <providers>
-                <dungeon name="dragons_neck"/>
-                <npc name="helmhart"/>
-            </providers>
-        </card>
+    <card id="022" name="ultros_typhon" stars="2" stats="2367" version="2">
+        <providers>
+            <dungeon name="dragons_neck"/>
+            <npc name="helmhart"/>
+        </providers>
+    </card>
 
-        <card name="demon_wall" stars="2" stats="6723" version="2">
-            <providers>
-                <dungeon name="amdapor_keep"/>
-                <dungeon name="amdapor_keep_hard"/>
-            </providers>
-        </card>
+    <card id="023" name="demon_wall" stars="2" stats="6723" version="2">
+        <providers>
+            <dungeon name="amdapor_keep"/>
+            <dungeon name="amdapor_keep_hard"/>
+        </providers>
+    </card>
 
-        <card name="succubus" stars="2" stats="7326" version="2">
-            <providers>
-                <dungeon name="haukke_manor"/>
-                <dungeon name="haukke_manor_hard"/>
-                <npc name="piralnaut"/>
-            </providers>
-        </card>
+    <card id="024" name="succubus" stars="2" stats="7326" version="2">
+        <providers>
+            <dungeon name="haukke_manor"/>
+            <dungeon name="haukke_manor_hard"/>
+            <npc name="piralnaut"/>
+        </providers>
+    </card>
 
-        <card name="chimera" stars="2" stats="7722" version="2">
-            <providers>
-                <dungeon name="cutters_cry"/>
-            </providers>
-        </card>
+    <card id="025" name="chimera" stars="2" stats="7722" version="2">
+        <providers>
+            <dungeon name="cutters_cry"/>
+        </providers>
+    </card>
 
-        <card name="blue_dragon" stars="2" stats="2277" version="2">
-            <providers>
-                <dungeon name="stone_vigil"/>
-                <dungeon name="stone_vigil_hard"/>
-                <npc name="ourdillic"/>
-            </providers>
-        </card>
+    <card id="026" name="blue_dragon" stars="2" stats="2277" version="2">
+        <providers>
+            <dungeon name="stone_vigil"/>
+            <dungeon name="stone_vigil_hard"/>
+            <npc name="ourdillic"/>
+        </providers>
+    </card>
 
-        <card name="scarface_bugaal_ja" stars="2" stats="6626" family="beast " version="2">
-            <providers>
-                <booster name="bronze"/>
-                <npc name="guhtwint_of_the_three_diamonds"/>
-            </providers>
-        </card>
+    <card id="027" name="scarface_bugaal_ja" stars="2" stats="6626" family="beast " version="2">
+        <providers>
+            <booster name="bronze"/>
+            <npc name="guhtwint_of_the_three_diamonds"/>
+        </providers>
+    </card>
 
-        <card name="momodi_modi" stars="2" stats="7553" family="beast " version="2">
-            <providers>
-                <booster name="gold"/>
-                <npc name="momodi_modi"/>
-            </providers>
-        </card>
+    <card id="028" name="momodi_modi" stars="2" stats="7553" family="beast " version="2">
+        <providers>
+            <booster name="gold"/>
+            <npc name="momodi_modi"/>
+        </providers>
+    </card>
 
-        <card name="baderon_tenfingers" stars="2" stats="3744" version="2">
-            <providers>
-                <booster name="gold"/>
-                <npc name="baderon_tenfingers"/>
-            </providers>
-        </card>
+    <card id="029" name="baderon_tenfingers" stars="2" stats="3744" version="2">
+        <providers>
+            <booster name="gold"/>
+            <npc name="baderon_tenfingers"/>
+        </providers>
+    </card>
 
-        <card name="mother_miounne" stars="2" stats="5537" version="2">
-            <providers>
-                <booster name="gold"/>
-                <npc name="mother_miounne"/>
-            </providers>
-        </card>
+    <card id="030" name="mother_miounne" stars="2" stats="5537" version="2">
+        <providers>
+            <booster name="gold"/>
+            <npc name="mother_miounne"/>
+        </providers>
+    </card>
 
-        <card name="livia_sas_junius" stars="2" stats="5537" family="garlean" version="2">
-            <providers>
-                <dungeon name="castrum_meridianum"/>
-                <npc name="indolent_imperial"/>
-            </providers>
-        </card>
+    <card id="031" name="livia_sas_junius" stars="2" stats="5537" family="garlean" version="2">
+        <providers>
+            <dungeon name="castrum_meridianum"/>
+            <npc name="indolent_imperial"/>
+        </providers>
+    </card>
 
-        <card name="rhitahtyn_sas_arvina" stars="2" stats="7137" family="garlean" version="2">
-            <providers>
-                <dungeon name="cape_westwind"/>
-                <npc name="indolent_imperial"/>
-            </providers>
-        </card>
+    <card id="032" name="rhitahtyn_sas_arvina" stars="2" stats="7137" family="garlean" version="2">
+        <providers>
+            <dungeon name="cape_westwind"/>
+            <npc name="indolent_imperial"/>
+        </providers>
+    </card>
 
-        <card name="biggs_wedge" stars="2" stats="5375" version="2">
-            <providers>
-                <npc name="mimidoa"/>
-                <npc name="sezul_totoloc"/>
-            </providers>
-        </card>
-    </cards>
-
-    <providers>
-
-        <booster name="bronze" price="520">
-            <cards>
-                <card name="spriggan"/>
-                <card name="pudding"/>
-                <card name="coblyn"/>
-                <card name="goobbue"/>
-                <card name="scarface_bugaal_ja"/>
-                <card name="behemoth"/>
-            </cards>
-        </booster>
-
-        <booster name="silver" price="1152">
-            <cards>
-                <card name="amaljaa"/>
-                <card name="ixal"/>
-                <card name="sylph"/>
-                <card name="kobold"/>
-                <card name="tataru_taru"/>
-                <card name="urianger"/>
-                <card name="minfilia"/>
-                <card name="lahabrea"/>
-            </cards>
-        </booster>
-
-        <booster name="gold" price="2160">
-            <cards>
-                <card name="momodi_modi"/>
-                <card name="baderon_tenfingers"/>
-                <card name="mother_miounne"/>
-                <card name="gerolt"/>
-                <card name="ultima_weapon"/>
-                <card name="cid_garlond"/>
-                <card name="warrior_of_light"/>
-                <card name="zidane_tribal"/>
-            </cards>
-        </booster>
-
-        <npc name="triple_triad_master" fee="5" win="10" draw="4" lose="0" start-time="0" end-time="2400" map="gold_saucer" x="4" y="7">
-            <deck>
-                <card name="tomberry"/>
-                <card name="mandragora"/>
-                <card name="pudding"/>
-                <card name="chocobo"/>
-                <card name="spriggan"/>
-            </deck>
-            <rewards>
-                <card name="spriggan"/>
-                <card name="chocobo"/>
-            </rewards>
-        </npc>
-
-        <npc name="roger" fee="5" win="22" draw="8" lose="3" start-time="0" end-time="2400" map="central_thanalan" x="19" y="20">
-            <deck>
-                <card name="blue_dragon"/>
-                <card name="morbol"/>
-                <card name="chocobo"/>
-                <card name="ixal"/>
-                <card name="bomb"/>
-                <card name="pudding"/>
-            </deck>
-            <rewards>
-                <card name="pudding"/>
-                <card name="morbol"/>
-            </rewards>
-        </npc>
-
-        <npc name="maisenta" fee="10" win="22" draw="8" lose="3" start-time="0" end-time="2400" map="new_gridania" x="11" y="11">
-            <deck>
-                <card name="mutamix_bubblypots"/>
-                <card name="mandragora"/>
-                <card name="coeurl"/>
-                <card name="succubus"/>
-                <card name="sylph"/>
-                <card name="coblyn"/>
-            </deck>
-            <rewards>
-                <card name="sylph"/>
-                <card name="coblyn"/>
-                <card name="goobbue"/>
-            </rewards>
-        </npc>
-
-        <npc name="wymond" fee="15" win="33" draw="0" lose="0" start-time="0" end-time="2400" map="uldah_steps_of_nald" x="9" y="8" pre-req="finish_first_hildibrand_quest">
-            <deck>
-                <card name="ultros_typhon"/>
-                <card name="momodi_modi"/>
-                <card name="livia_sas_junius"/>
-                <card name="spriggan"/>
-                <card name="coblyn"/>
-                <card name="mandragora"/>
-            </deck>
-            <rewards>
-                <card name="coblyn"/>
-            </rewards>
-        </npc>
-
-        <npc name="mother_miounne" fee="15" win="32" draw="12" lose="4" start-time="0" end-time="2400" map="new_gridania" x="11" y="13">
-            <deck>
-                <card name="frixio"/>
-                <card name="baderon_tenfingers"/>
-                <card name="mother_miounne"/>
-                <card name="momodi_modi"/>
-                <card name="ahriman"/>
-                <card name="goobbue"/>
-                <card name="ixal"/>
-            </deck>
-            <rewards>
-                <card name="goobbue"/>
-                <card name="mother_miounne"/>
-                <card name="sylph"/>
-            </rewards>
-        </npc>
-
-        <npc name="aurifort_of_the_three_clubs" fee="20" win="50" draw="20" lose="7" start-time="0" end-time="2400" map="gold_saucer" x="4" y="7">
-            <deck>
-                <card name="succubus"/>
-                <card name="ultima_weapon" />
-                <card name="memeroon" />
-                <card name="scarface_bugaal_ja" />
-                <card name="goobbue" />
-                <card name="moogle" />
-            </deck>
-            <rewards>
-                <card name="goobbue"/>
-                <card name="scarface_bugaal_ja"/>
-            </rewards>
-        </npc>
-
-        <npc name="momodi_modi" fee="15" win="33" draw="13" lose="4" start-time="0" end-time="2400" map="uldah_steps_of_nald" x="11" y="9">
-            <deck>
-                <card name="baderon_tenfingers"/>
-                <card name="mother_miounne" />
-                <card name="chocobo" />
-                <card name="thancred" />
-                <card name="mutamix_bubblypots" />
-                <card name="coeurl" />
-            </deck>
-            <rewards>
-                <card name="momodi_modi"/>
-                <card name="goobbue"/>
-            </rewards>
-        </npc>
-
-        <npc name="guhtwint_of_the_three_diamonds" fee="15" win="32" draw="20" lose="7" start-time="0" end-time="2400" map="gold_saucer" x="4" y="6">
-            <deck>
-                <card name="blue_dragon"/>
-                <card name="ahriman" />
-                <card name="demon_wall" />
-                <card name="behemoth" />
-                <card name="coblyn" />
-                <card name="titan" />
-            </deck>
-            <rewards>
-                <card name="scarface_bugaal_ja"/>
-                <card name="chocobo"/>
-            </rewards>
-        </npc>
-
-        <npc name="jonas_of_the_three_spades" fee="10" win="22" draw="8" lose="3" start-time="0" end-time="2400" map="gold_saucer" x="4" y="7">
-            <deck>
-                <card name="demon_wall"/>
-                <card name="sabotender" />
-                <card name="spriggan" />
-                <card name="blue_dragon" />
-                <card name="moogle" />
-                <card name="ixal" />
-                <card name="ahriman" />
-            </deck>
-            <rewards>
-                <card name="ixal"/>
-                <card name="moogle"/>
-            </rewards>
-        </npc>
-
-        <npc name="joellaut" fee="20" win="48" draw="19" lose="7" start-time="0" end-time="2400" map="central_coerthas" x="13" y="15">
-            <deck>
-                <card name="behemoth"/>
-                <card name="biggs_wedge" />
-                <card name="scarface_bugaal_ja" />
-                <card name="alphinaud_alisaie" />
-                <card name="urianger" />
-                <card name="blue_dragon" />
-                <card name="garuda" />
-                <card name="ixal" />
-            </deck>
-            <rewards>
-                <card name="alphinaud_alisaie"/>
-                <card name="ixal"/>
-            </rewards>
-        </npc>
-
-        <npc name="tataru_taru" fee="35" win="165" draw="66" lose="24" start-time="17" end-time="5" map="central_coerthas" x="26" y="17" pre-req="finish_255_story">
-            <deck>
-                <card name="tataru_taru"/>
-                <card name="urianger" />
-                <card name="biggs_wedge" />
-                <card name="lightning" />
-                <card name="hildibrand_nashu" />
-                <card name="yshtola" />
-                <card name="godbert_manderville" />
-                <card name="ixal" />
-            </deck>
-            <rewards>
-                <card name="tataru_taru"/>
-                <card name="urianger"/>
-                <card name="lightning"/>
-            </rewards>
-        </npc>
-
-        <npc name="tataru_taru_3" fee="35" win="165" draw="66" lose="24" start-time="19" end-time="7" map="ishgard" x="0" y="0" pre-req="finish_300_story">
-            <deck>
-                <card name="tataru_taru"/>
-                <card name="lightning" />
-                <card name="ysayle" />
-                <card name="firion" />
-                <card name="aymeric" />
-                <card name="count_edmond_fortemps" />
-                <card name="hilda" />
-            </deck>
-            <rewards>
-                <card name="tataru_taru"/>
-                <card name="lightning"/>
-                <card name="firion"/>
-            </rewards>
-        </npc>
-
-        <npc name="trachtoum" fee="20" win="47" draw="18" lose="7" start-time="20" end-time="8" map="lower_la_noscea" x="35" y="15" >
-            <deck>
-                <card name="titan"/>
-                <card name="yshtola" />
-                <card name="moogle" />
-                <card name="ultros_typhon" />
-                <card name="gerolt" />
-                <card name="tomberry" />
-                <card name="blue_dragon" />
-            </deck>
-            <rewards>
-                <card name="titan"/>
-                <card name="moogle"/>
-            </rewards>
-        </npc>
-
-        <npc name="helmhart" fee="20" win="48" draw="19" lose="7" start-time="10" end-time="20" map="eastern_thanalan" x="20" y="21" >
-            <deck>
-                <card name="tomberry"/>
-                <card name="ahriman" />
-                <card name="louisoix_leveilleur" />
-                <card name="titan" />
-                <card name="ultros_typhon" />
-                <card name="godbert_manderville" />
-                <card name="gerolt" />
-                <card name="scarface_bugaal_ja" />
-            </deck>
-            <rewards>
-                <card name="gerolt"/>
-                <card name="ultros_typhon"/>
-            </rewards>
-        </npc>
-
-        <npc name="piralnaut" fee="20" win="50" draw="20" lose="7" start-time="0" end-time="20" map="east_shroud" x="17" y="26" >
-            <deck>
-                <card name="frixio"/>
-                <card name="minfilia" />
-                <card name="coeurl" />
-                <card name="raya_o_senna_a_ruhn_senna" />
-                <card name="amaljaa" />
-                <card name="sahagin" />
-                <card name="mother_miounne" />
-                <card name="succubus" />
-            </deck>
-            <rewards>
-                <card name="frixio"/>
-                <card name="succubus"/>
-            </rewards>
-        </npc>
-
-        <npc name="ourdillic" fee="25" win="60" draw="24" lose="9" start-time="0" end-time="24" map="central_coerthas" x="6" y="22" >
-            <deck>
-                <card name="shiva"/>
-                <card name="ultima_weapon" />
-                <card name="urianger" />
-                <card name="behemoth" />
-                <card name="biggs_wedge" />
-                <card name="blue_dragon" />
-            </deck>
-            <rewards>
-                <card name="blue_dragon"/>
-                <card name="behemoth"/>
-            </rewards>
-        </npc>
-
-        <npc name="baderon_tenfingers" fee="20" win="49" draw="19" lose="7" start-time="0" end-time="24" map="limsa_lominsa_upper_decks" x="11" y="11" >
-            <deck>
-                <card name="minfilia"/>
-                <card name="momodi_modi" />
-                <card name="scarface_bugaal_ja" />
-                <card name="baderon_tenfingers" />
-                <card name="yshtola" />
-                <card name="behemoth" />
-                <card name="mother_miounne" />
-            </deck>
-            <rewards>
-                <card name="baderon_tenfingers"/>
-            </rewards>
-        </npc>
-
-        <npc name="indolent_imperial" fee="30" win="120" draw="48" lose="18" start-time="0" end-time="24" map="mor_dhona" x="11" y="17" >
-            <deck>
-                <card name="gaius_van_baelsar"/>
-                <card name="nero_tol_scaeva" />
-                <card name="livia_sas_junius" />
-                <card name="scarface_bugaal_ja" />
-                <card name="bahamut" />
-                <card name="garuda" />
-                <card name="rhitahtyn_sas_arvina" />
-                <card name="memeroon" />
-            </deck>
-            <rewards>
-                <card name="livia_sas_junius"/>
-                <card name="rhitahtyn_sas_arvina"/>
-                <card name="nero_tol_scaeva"/>
-                <card name="gaius_van_baelsar"/>
-            </rewards>
-        </npc>
-
-
-    </providers>
-
-
-</triple-triad>
+    <card id="033" name="biggs_wedge" stars="2" stats="5375" version="2">
+        <providers>
+            <npc name="mimidoa"/>
+            <npc name="sezul_totoloc"/>
+        </providers>
+    </card>
+</cards>

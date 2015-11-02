@@ -66,6 +66,45 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/btn_cards"
+                android:id="@+id/btnCards"
+                android:drawableLeft="@drawable/btn_cards"
+                android:layout_column="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_minions"
+                android:id="@+id/btnMinions"
+                android:drawableLeft="@drawable/btn_minions"
+                android:layout_column="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_mounts"
+                android:id="@+id/btnMounts"
+                android:drawableLeft="@drawable/btn_mounts"
+                android:layout_column="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="@string/btn_about"
                 android:id="@+id/btnAbout" />
         </TableRow>

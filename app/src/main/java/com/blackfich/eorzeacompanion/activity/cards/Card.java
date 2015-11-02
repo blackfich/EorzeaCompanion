@@ -1,7 +1,14 @@
 package com.blackfich.eorzeacompanion.activity.cards;
 
+import com.blackfich.eorzeacompanion.util.XmlUtil;
+import com.blackfich.eorzeacompanion.util.bean.Mapable;
+import com.blackfich.eorzeacompanion.util.bean.Timable;
 import com.blackfich.eorzeacompanion.util.bean.Versionable;
+import com.blackfich.eorzeacompanion.util.bean.XmlFactory;
 
+import org.w3c.dom.Element;
+
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -9,11 +16,20 @@ import java.util.List;
  */
 public class Card implements Versionable {
 
+    private String id;
     private String name;
     private int version;
     private int stars;
     private String stats;
-    private List<CardProvider> providers;
+    private List<String> providers;
+
+    public String getId() {
+        return id;
+    }
+
+    public void seId(String id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -49,11 +65,22 @@ public class Card implements Versionable {
         this.stats = stats;
     }
 
-    public List<CardProvider> getProviders() {
+    public List<String> getProviders() {
         return providers;
     }
 
-    public void setProviders(List<CardProvider> providers) {
+    public void setProviders(List<String> providers) {
         this.providers = providers;
+    }
+
+    public void fromXml(Element element) {
+        XmlFactory.fromXml((Versionable) this, element);
+
+        id = XmlUtil.getAttribueValue(element, "id");
+        name = XmlUtil.getAttribueValue(element, "name");
+        stars = XmlUtil.getAttribueValue(element, "stars", 1);
+        stats =  XmlUtil.getAttribueValue(element, "stats");
+        providers = new ArrayList<String>();
+
     }
 }

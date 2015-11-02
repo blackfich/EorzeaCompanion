@@ -1,0 +1,328 @@
+<card-providers>
+
+    <booster name="bronze" price="520">
+        <cards>
+            <card name="spriggan"/>
+            <card name="pudding"/>
+            <card name="coblyn"/>
+            <card name="goobbue"/>
+            <card name="scarface_bugaal_ja"/>
+            <card name="behemoth"/>
+        </cards>
+    </booster>
+
+    <booster name="silver" price="1152">
+        <cards>
+            <card name="amaljaa"/>
+            <card name="ixal"/>
+            <card name="sylph"/>
+            <card name="kobold"/>
+            <card name="tataru_taru"/>
+            <card name="urianger"/>
+            <card name="minfilia"/>
+            <card name="lahabrea"/>
+        </cards>
+    </booster>
+
+    <booster name="gold" price="2160">
+        <cards>
+            <card name="momodi_modi"/>
+            <card name="baderon_tenfingers"/>
+            <card name="mother_miounne"/>
+            <card name="gerolt"/>
+            <card name="ultima_weapon"/>
+            <card name="cid_garlond"/>
+            <card name="warrior_of_light"/>
+            <card name="zidane_tribal"/>
+        </cards>
+    </booster>
+
+    <npc name="triple_triad_master" fee="5" win="10" draw="4" lose="0" start-time="0" end-time="2400" map="gold_saucer" x="4" y="7">
+        <deck>
+            <card name="tomberry"/>
+            <card name="mandragora"/>
+            <card name="pudding"/>
+            <card name="chocobo"/>
+            <card name="spriggan"/>
+        </deck>
+        <rewards>
+            <card name="spriggan"/>
+            <card name="chocobo"/>
+        </rewards>
+    </npc>
+
+    <npc name="roger" fee="5" win="22" draw="8" lose="3" start-time="0" end-time="2400" map="central_thanalan" x="19" y="20">
+        <deck>
+            <card name="blue_dragon"/>
+            <card name="morbol"/>
+            <card name="chocobo"/>
+            <card name="ixal"/>
+            <card name="bomb"/>
+            <card name="pudding"/>
+        </deck>
+        <rewards>
+            <card name="pudding"/>
+            <card name="morbol"/>
+        </rewards>
+    </npc>
+
+    <npc name="maisenta" fee="10" win="22" draw="8" lose="3" start-time="0" end-time="2400" map="new_gridania" x="11" y="11">
+        <deck>
+            <card name="mutamix_bubblypots"/>
+            <card name="mandragora"/>
+            <card name="coeurl"/>
+            <card name="succubus"/>
+            <card name="sylph"/>
+            <card name="coblyn"/>
+        </deck>
+        <rewards>
+            <card name="sylph"/>
+            <card name="coblyn"/>
+            <card name="goobbue"/>
+        </rewards>
+    </npc>
+
+    <npc name="wymond" fee="15" win="33" draw="0" lose="0" start-time="0" end-time="2400" map="uldah_steps_of_nald" x="9" y="8" pre-req="finish_first_hildibrand_quest">
+        <deck>
+            <card name="ultros_typhon"/>
+            <card name="momodi_modi"/>
+            <card name="livia_sas_junius"/>
+            <card name="spriggan"/>
+            <card name="coblyn"/>
+            <card name="mandragora"/>
+        </deck>
+        <rewards>
+            <card name="coblyn"/>
+        </rewards>
+    </npc>
+
+    <npc name="mother_miounne" fee="15" win="32" draw="12" lose="4" start-time="0" end-time="2400" map="new_gridania" x="11" y="13">
+        <deck>
+            <card name="frixio"/>
+            <card name="baderon_tenfingers"/>
+            <card name="mother_miounne"/>
+            <card name="momodi_modi"/>
+            <card name="ahriman"/>
+            <card name="goobbue"/>
+            <card name="ixal"/>
+        </deck>
+        <rewards>
+            <card name="goobbue"/>
+            <card name="mother_miounne"/>
+            <card name="sylph"/>
+        </rewards>
+    </npc>
+
+    <npc name="aurifort_of_the_three_clubs" fee="20" win="50" draw="20" lose="7" start-time="0" end-time="2400" map="gold_saucer" x="4" y="7">
+        <deck>
+            <card name="succubus"/>
+            <card name="ultima_weapon" />
+            <card name="memeroon" />
+            <card name="scarface_bugaal_ja" />
+            <card name="goobbue" />
+            <card name="moogle" />
+        </deck>
+        <rewards>
+            <card name="goobbue"/>
+            <card name="scarface_bugaal_ja"/>
+        </rewards>
+    </npc>
+
+    <npc name="momodi_modi" fee="15" win="33" draw="13" lose="4" start-time="0" end-time="2400" map="uldah_steps_of_nald" x="11" y="9">
+        <deck>
+            <card name="baderon_tenfingers"/>
+            <card name="mother_miounne" />
+            <card name="chocobo" />
+            <card name="thancred" />
+            <card name="mutamix_bubblypots" />
+            <card name="coeurl" />
+        </deck>
+        <rewards>
+            <card name="momodi_modi"/>
+            <card name="goobbue"/>
+        </rewards>
+    </npc>
+
+    <npc name="guhtwint_of_the_three_diamonds" fee="15" win="32" draw="20" lose="7" start-time="0" end-time="2400" map="gold_saucer" x="4" y="6">
+        <deck>
+            <card name="blue_dragon"/>
+            <card name="ahriman" />
+            <card name="demon_wall" />
+            <card name="behemoth" />
+            <card name="coblyn" />
+            <card name="titan" />
+        </deck>
+        <rewards>
+            <card name="scarface_bugaal_ja"/>
+            <card name="chocobo"/>
+        </rewards>
+    </npc>
+
+    <npc name="jonas_of_the_three_spades" fee="10" win="22" draw="8" lose="3" start-time="0" end-time="2400" map="gold_saucer" x="4" y="7">
+        <deck>
+            <card name="demon_wall"/>
+            <card name="sabotender" />
+            <card name="spriggan" />
+            <card name="blue_dragon" />
+            <card name="moogle" />
+            <card name="ixal" />
+            <card name="ahriman" />
+        </deck>
+        <rewards>
+            <card name="ixal"/>
+            <card name="moogle"/>
+        </rewards>
+    </npc>
+
+    <npc name="joellaut" fee="20" win="48" draw="19" lose="7" start-time="0" end-time="2400" map="central_coerthas" x="13" y="15">
+        <deck>
+            <card name="behemoth"/>
+            <card name="biggs_wedge" />
+            <card name="scarface_bugaal_ja" />
+            <card name="alphinaud_alisaie" />
+            <card name="urianger" />
+            <card name="blue_dragon" />
+            <card name="garuda" />
+            <card name="ixal" />
+        </deck>
+        <rewards>
+            <card name="alphinaud_alisaie"/>
+            <card name="ixal"/>
+        </rewards>
+    </npc>
+
+    <npc name="tataru_taru" fee="35" win="165" draw="66" lose="24" start-time="17" end-time="5" map="central_coerthas" x="26" y="17" pre-req="finish_255_story">
+        <deck>
+            <card name="tataru_taru"/>
+            <card name="urianger" />
+            <card name="biggs_wedge" />
+            <card name="lightning" />
+            <card name="hildibrand_nashu" />
+            <card name="yshtola" />
+            <card name="godbert_manderville" />
+            <card name="ixal" />
+        </deck>
+        <rewards>
+            <card name="tataru_taru"/>
+            <card name="urianger"/>
+            <card name="lightning"/>
+        </rewards>
+    </npc>
+
+    <npc name="tataru_taru_3" fee="35" win="165" draw="66" lose="24" start-time="19" end-time="7" map="ishgard" x="0" y="0" pre-req="finish_300_story">
+        <deck>
+            <card name="tataru_taru"/>
+            <card name="lightning" />
+            <card name="ysayle" />
+            <card name="firion" />
+            <card name="aymeric" />
+            <card name="count_edmond_fortemps" />
+            <card name="hilda" />
+        </deck>
+        <rewards>
+            <card name="tataru_taru"/>
+            <card name="lightning"/>
+            <card name="firion"/>
+        </rewards>
+    </npc>
+
+    <npc name="trachtoum" fee="20" win="47" draw="18" lose="7" start-time="20" end-time="8" map="lower_la_noscea" x="35" y="15" >
+        <deck>
+            <card name="titan"/>
+            <card name="yshtola" />
+            <card name="moogle" />
+            <card name="ultros_typhon" />
+            <card name="gerolt" />
+            <card name="tomberry" />
+            <card name="blue_dragon" />
+        </deck>
+        <rewards>
+            <card name="titan"/>
+            <card name="moogle"/>
+        </rewards>
+    </npc>
+
+    <npc name="helmhart" fee="20" win="48" draw="19" lose="7" start-time="10" end-time="20" map="eastern_thanalan" x="20" y="21" >
+        <deck>
+            <card name="tomberry"/>
+            <card name="ahriman" />
+            <card name="louisoix_leveilleur" />
+            <card name="titan" />
+            <card name="ultros_typhon" />
+            <card name="godbert_manderville" />
+            <card name="gerolt" />
+            <card name="scarface_bugaal_ja" />
+        </deck>
+        <rewards>
+            <card name="gerolt"/>
+            <card name="ultros_typhon"/>
+        </rewards>
+    </npc>
+
+    <npc name="piralnaut" fee="20" win="50" draw="20" lose="7" start-time="0" end-time="20" map="east_shroud" x="17" y="26" >
+        <deck>
+            <card name="frixio"/>
+            <card name="minfilia" />
+            <card name="coeurl" />
+            <card name="raya_o_senna_a_ruhn_senna" />
+            <card name="amaljaa" />
+            <card name="sahagin" />
+            <card name="mother_miounne" />
+            <card name="succubus" />
+        </deck>
+        <rewards>
+            <card name="frixio"/>
+            <card name="succubus"/>
+        </rewards>
+    </npc>
+
+    <npc name="ourdillic" fee="25" win="60" draw="24" lose="9" start-time="0" end-time="24" map="central_coerthas" x="6" y="22" >
+        <deck>
+            <card name="shiva"/>
+            <card name="ultima_weapon" />
+            <card name="urianger" />
+            <card name="behemoth" />
+            <card name="biggs_wedge" />
+            <card name="blue_dragon" />
+        </deck>
+        <rewards>
+            <card name="blue_dragon"/>
+            <card name="behemoth"/>
+        </rewards>
+    </npc>
+
+    <npc name="baderon_tenfingers" fee="20" win="49" draw="19" lose="7" start-time="0" end-time="24" map="limsa_lominsa_upper_decks" x="11" y="11" >
+        <deck>
+            <card name="minfilia"/>
+            <card name="momodi_modi" />
+            <card name="scarface_bugaal_ja" />
+            <card name="baderon_tenfingers" />
+            <card name="yshtola" />
+            <card name="behemoth" />
+            <card name="mother_miounne" />
+        </deck>
+        <rewards>
+            <card name="baderon_tenfingers"/>
+        </rewards>
+    </npc>
+
+    <npc name="indolent_imperial" fee="30" win="120" draw="48" lose="18" start-time="0" end-time="24" map="mor_dhona" x="11" y="17" >
+        <deck>
+            <card name="gaius_van_baelsar"/>
+            <card name="nero_tol_scaeva" />
+            <card name="livia_sas_junius" />
+            <card name="scarface_bugaal_ja" />
+            <card name="bahamut" />
+            <card name="garuda" />
+            <card name="rhitahtyn_sas_arvina" />
+            <card name="memeroon" />
+        </deck>
+        <rewards>
+            <card name="livia_sas_junius"/>
+            <card name="rhitahtyn_sas_arvina"/>
+            <card name="nero_tol_scaeva"/>
+            <card name="gaius_van_baelsar"/>
+        </rewards>
+    </npc>
+
+</card-providers>

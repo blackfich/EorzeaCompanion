@@ -15,6 +15,9 @@
     <string name="btn_filters">Filtres</string>
     <string name="btn_gathering">Collecte</string>
     <string name="btn_vistas">Exploration</string>
+    <string name="btn_cards">Cartes</string>
+    <string name="btn_minions">Mascottes</string>
+    <string name="btn_mounts">Montures</string>
     <string name="btn_about">A propos</string>
 
     <!-- Gathering -->
